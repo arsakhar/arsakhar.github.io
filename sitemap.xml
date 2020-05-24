@@ -48,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://arsakhar.github.io/tags/</loc>
-    <lastmod>2020-05-23T22:04:42-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://arsakhar.github.io/author/vincent-yang/</loc>
-    <lastmod>2020-05-23T22:04:42-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://arsakhar.github.io/tag/virtual-reality/</loc>
     <lastmod>2020-05-23T22:04:42-07:00</lastmod>
   </url>
   
@@ -69,11 +59,6 @@
   
   <url>
     <loc>https://arsakhar.github.io/publication/magneticresonancemedicine/</loc>
-    <lastmod>2020-05-23T21:59:02-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://arsakhar.github.io/tag/brain-imaging/</loc>
     <lastmod>2020-05-23T21:59:02-07:00</lastmod>
   </url>
   
@@ -100,6 +85,10 @@
   
   <url>
     <loc>https://arsakhar.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://arsakhar.github.io/tags/</loc>
   </url>
   
 </urlset>
