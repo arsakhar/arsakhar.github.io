@@ -21,24 +21,9 @@
 This is the first in our trilogy of virtual reality exergames. You start the game as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and return them safely to the sanctuary. There are two primary cognitive skills assessed each time you participate in a rescue mission: selective attention and spatial navigation.&lt;/p&gt;
 &lt;p&gt;For the selective attention task, you are required to pick up food associated with the diet of the animal you are currently rescuing. For spatial navigation, you are assigned to one route each day. You will complete 4 rescue missions. each time biking along this route and rescuing an animal before you end up at the gates of the sanctuary. For the first two rescue missions, we will provide arrows to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located further away from the sanctuary.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;Sals%20Sanctuary.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kI0bbrvH4hU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -51,24 +36,9 @@ This is the first in our trilogy of virtual reality exergames. You start the gam
 &lt;p&gt;This is the second in our trilogy of virtual reality exergames. You start the game as the chief ranger at Sal&amp;rsquo;s Wildlife Enclosure, a nature reserve for animals set in a savannah, jungle, safari, and aviary. You are tasked with taking care of all the animal&amp;rsquo;s in the wildlife enclosure. Your missions consist of feeding animals, treating injured animals at the vet clinic, putting out fires, and repairing broken equipment. There are two primary cognitive skills assessed each day you bike around the enclosure to complete your missions: selective attention and spatial navigation.&lt;/p&gt;
 &lt;p&gt;For the selective attention task, you are required to pick up objects associated with your mission. For example, if you are putting out a fire, you will be required to pickup axes and fire extinguishers on the way. For spatial navigation, you are assigned to one route each day. You will complete 4 missions, each time biking along the same route. For the first two missions, we will provide arrows to help you learn the route. After 2 missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start moving towards the perimeter of the wildlife enclosure.&lt;/p&gt;
 &lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;Wildlife%20Enclosure.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YLXAhpwOIpM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     

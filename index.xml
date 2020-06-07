@@ -30,24 +30,9 @@
 This is the first in our trilogy of virtual reality exergames. You start the game as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and return them safely to the sanctuary. There are two primary cognitive skills assessed each time you participate in a rescue mission: selective attention and spatial navigation.&lt;/p&gt;
 &lt;p&gt;For the selective attention task, you are required to pick up food associated with the diet of the animal you are currently rescuing. For spatial navigation, you are assigned to one route each day. You will complete 4 rescue missions. each time biking along this route and rescuing an animal before you end up at the gates of the sanctuary. For the first two rescue missions, we will provide arrows to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located further away from the sanctuary.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;Sals%20Sanctuary.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kI0bbrvH4hU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -60,24 +45,9 @@ This is the first in our trilogy of virtual reality exergames. You start the gam
 &lt;p&gt;This is the second in our trilogy of virtual reality exergames. You start the game as the chief ranger at Sal&amp;rsquo;s Wildlife Enclosure, a nature reserve for animals set in a savannah, jungle, safari, and aviary. You are tasked with taking care of all the animal&amp;rsquo;s in the wildlife enclosure. Your missions consist of feeding animals, treating injured animals at the vet clinic, putting out fires, and repairing broken equipment. There are two primary cognitive skills assessed each day you bike around the enclosure to complete your missions: selective attention and spatial navigation.&lt;/p&gt;
 &lt;p&gt;For the selective attention task, you are required to pick up objects associated with your mission. For example, if you are putting out a fire, you will be required to pickup axes and fire extinguishers on the way. For spatial navigation, you are assigned to one route each day. You will complete 4 missions, each time biking along the same route. For the first two missions, we will provide arrows to help you learn the route. After 2 missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start moving towards the perimeter of the wildlife enclosure.&lt;/p&gt;
 &lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;Wildlife%20Enclosure.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YLXAhpwOIpM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -103,6 +73,251 @@ This is the first in our trilogy of virtual reality exergames. You start the gam
       <pubDate>Tue, 14 Feb 2012 23:33:39 -0700</pubDate>
       <guid>https://arsakhar.github.io/publication/us-patent/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://arsakhar.github.io/data-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/data-science/</guid>
+      <description>&lt;h3 id=&#34;bdata-scienceb&#34;&gt;&lt;b&gt;Data Science&lt;/b&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual Reality</title>
+      <link>https://arsakhar.github.io/virtual-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/virtual-reality/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34; style=&#34;position: relative;&#34;&gt;
+	&lt;nav style=&#34;position: absolute; right: 100%;&#34;&gt;
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-column nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Inspiration&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Games&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab13&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Responsibilities&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab14&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Skills&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab15&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;News Coverage&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h3 id=&#34;binspirationb&#34;&gt;&lt;b&gt;Inspiration&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;Alzheimer disease is the leading cause of dementia in older adults. To date, there are no effective disease-modifying treatments, but recent studies have shown exercise and cognitive stimulation to be
+associated with a reduced risk of dementia. Virtual reality is a promising technology for combining exercise and cognitive stimulation and may enhance brain health in older adults at risk for Alzheimer&amp;rsquo;s disease.
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h3 id=&#34;bgamesb&#34;&gt;&lt;b&gt;Games&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;Sal&amp;rsquo;s Sanctuary and Wildlife Enclosure are two fun, engaging, and cognitively challenging virtual reality exergames designed specifically for older adults. A third game, Underwater Adventures is currently in development.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/sals-sanctuary/&#34;&gt;Sal&amp;rsquo;s Sanctuary&lt;/a&gt; - Rescue animals while navigating an urban environment in this fun and cognitively challenging virtual reality exergame&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/wildlife-enclosure/&#34;&gt;Wildlife Enclosure&lt;/a&gt; - Look after and take care of the animals while navigating a savannah, safari, jungle, and aviary in this fun and cognitively challenging virtual reality exergame&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Underwater Adventures (In Development)&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab13&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName3&#34;&gt;
+
+	&lt;h3 id=&#34;bresponsibilitiesb&#34;&gt;&lt;b&gt;Responsibilities&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Developed a cognitively challenging exergame in virtual reality for older adults &lt;b&gt;(Lead Engineer)&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;Developed the environments, physics, and interaction system for the game&lt;/li&gt;
+  &lt;li&gt;Collaborated with a small, high-energy team of undergraduate students, master’s students, and professors&lt;/li&gt;
+  &lt;li&gt;Optimized performance by utilizing assets and other techniques to reduce rendering overhead in virtual reality&lt;/li&gt;
+  &lt;li&gt;Integrated a heart rate monitor and custom-built exercise bike into to the game&lt;/li&gt;
+  &lt;li&gt;Designed and developed a SQL database to store data&lt;/li&gt;
+  &lt;li&gt;Designed and developed a login and registration system to manage a user’s session&lt;/li&gt;
+  &lt;li&gt;Installed and maintained a version control server&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab14&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName4&#34;&gt;
+
+	&lt;h3 id=&#34;bsoft-skillsb&#34;&gt;&lt;b&gt;Soft Skills&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Leading small teams on large-scale, long-term projects&lt;/li&gt;
+&lt;li&gt;Collaborating and communicating effectively on cross-functional, multi-disciplinary teams&lt;/li&gt;
+&lt;li&gt;Adapting to a rapidly changing work environment&lt;/li&gt;
+&lt;li&gt;Developing creative solutions to challenging problems&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;btechnical-skillsb&#34;&gt;&lt;b&gt;Technical Skills&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Developing serious games for virtual reality&lt;/li&gt;
+&lt;li&gt;Designing levels, game physics and interaction systems in Unity 3D&lt;/li&gt;
+&lt;li&gt;Working with assets, scripts, prefabs, textures, animation, GUI, events, and scriptable objects in Unity3D&lt;/li&gt;
+&lt;li&gt;Familiarity with design patterns and interfaces&lt;/li&gt;
+&lt;li&gt;Writing clean, readable, and easily maintainable code&lt;/li&gt;
+&lt;li&gt;Creating and maintaining a version control server&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;bsoftwareb&#34;&gt;&lt;b&gt;Software&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Perforce&lt;/li&gt;
+&lt;li&gt;Unity3D&lt;/li&gt;
+&lt;li&gt;Visual Studio&lt;/li&gt;
+&lt;li&gt;XAMPP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;bprogramming-languagesb&#34;&gt;&lt;b&gt;Programming Languages&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;bpackagesb&#34;&gt;&lt;b&gt;Packages&lt;/b&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;UnityEngine.Networking – HTTP communication with web server&lt;/li&gt;
+&lt;li&gt;UnityEngine.UI&lt;/li&gt;
+&lt;li&gt;System.Linq&lt;/li&gt;
+&lt;li&gt;System.Net.Sockets – Udp communication&lt;/li&gt;
+&lt;li&gt;System.Threading&lt;/li&gt;
+&lt;li&gt;System.IO.Ports – serial port communication&lt;/li&gt;
+&lt;li&gt;UnityEngine&lt;/li&gt;
+&lt;li&gt;UnityEngine.AI - pathfinding&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab15&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName5&#34;&gt;
+
+	&lt;h3 id=&#34;bnews-coverageb&#34;&gt;&lt;b&gt;News Coverage&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Morning Joe&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HF0HMJgy9Q8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Voice of America&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mMD8P0ECvd0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.voanews.com/science-health/scientists-study-whether-virtual-reality-can-prevent-cognitive-decline-dementia&#34;&gt;https://www.voanews.com/science-health/scientists-study-whether-virtual-reality-can-prevent-cognitive-decline-dementia&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
   </channel>
