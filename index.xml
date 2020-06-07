@@ -5,12 +5,81 @@
     <link>https://arsakhar.github.io/</link>
       <atom:link href="https://arsakhar.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 May 2020 23:20:29 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
     <image>
       <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title></title>
       <link>https://arsakhar.github.io/</link>
     </image>
+    
+    <item>
+      <title>Ranking College Football Coaches</title>
+      <link>https://arsakhar.github.io/project/ncaaf-coaches/</link>
+      <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/ncaaf-coaches/</guid>
+      <description>&lt;p&gt;&lt;b&gt; Coming Soon&amp;hellip; &lt;/b&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sal&#39;s Sanctuary</title>
+      <link>https://arsakhar.github.io/project/sals-sanctuary/</link>
+      <pubDate>Fri, 05 Jun 2020 22:19:19 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/sals-sanctuary/</guid>
+      <description>&lt;p&gt;&lt;b&gt; Overview &lt;/b&gt;&lt;br&gt;
+This is the first in our trilogy of virtual reality exergames. You start the game as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and return them safely to the sanctuary. There are two primary cognitive skills assessed each time you participate in a rescue mission: selective attention and spatial navigation.&lt;/p&gt;
+&lt;p&gt;For the selective attention task, you are required to pick up food associated with the diet of the animal you are currently rescuing. For spatial navigation, you are assigned to one route each day. You will complete 4 rescue missions. each time biking along this route and rescuing an animal before you end up at the gates of the sanctuary. For the first two rescue missions, we will provide arrows to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located further away from the sanctuary.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;Sals%20Sanctuary.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wildlife Enclosure</title>
+      <link>https://arsakhar.github.io/project/wildlife-enclosure/</link>
+      <pubDate>Fri, 05 Jun 2020 21:05:12 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/wildlife-enclosure/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;This is the second in our trilogy of virtual reality exergames. You start the game as the chief ranger at Sal&amp;rsquo;s Wildlife Enclosure, a nature reserve for animals set in a savannah, jungle, safari, and aviary. You are tasked with taking care of all the animal&amp;rsquo;s in the wildlife enclosure. Your missions consist of feeding animals, treating injured animals at the vet clinic, putting out fires, and repairing broken equipment. There are two primary cognitive skills assessed each day you bike around the enclosure to complete your missions: selective attention and spatial navigation.&lt;/p&gt;
+&lt;p&gt;For the selective attention task, you are required to pick up objects associated with your mission. For example, if you are putting out a fire, you will be required to pickup axes and fire extinguishers on the way. For spatial navigation, you are assigned to one route each day. You will complete 4 missions, each time biking along the same route. For the first two missions, we will provide arrows to help you learn the route. After 2 missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start moving towards the perimeter of the wildlife enclosure.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;Wildlife%20Enclosure.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; --&gt;
+</description>
+    </item>
     
     <item>
       <title>Cycling and Spatial Navigation in an Enriched, Immersive 3D Virtual Park Environment: A Feasibility Study in Younger and Older Adults</title>
