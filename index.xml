@@ -89,9 +89,11 @@ This is the first in our trilogy of virtual reality exergames. You start the gam
       <link>https://arsakhar.github.io/virtual-reality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://arsakhar.github.io/virtual-reality/</guid>
-      <description>&lt;div class=&#34;article-container-nav&#34; style=&#34;position: relative;&#34;&gt;
-	&lt;nav style=&#34;position: absolute; right: 100%;&#34;&gt;
-		&lt;div class=&#34;sticky-scroll navtab-position nav flex-column nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
 			&lt;br&gt;
 			
 			
