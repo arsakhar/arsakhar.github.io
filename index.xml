@@ -17,7 +17,14 @@
       <link>https://arsakhar.github.io/project/ncaaf-coaches/</link>
       <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/ncaaf-coaches/</guid>
-      <description>&lt;p&gt;&lt;b&gt; Coming Soon&amp;hellip; &lt;/b&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;b&gt;Background&lt;/b&gt;&lt;br&gt;
+I’m an avid college football fan with a keen interest in data science. For my first dive into data science, I will use some basic statistics and data manipulation to evaluate coaching in college football.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Defining the Problem&lt;/b&gt;&lt;br&gt;
+Football is the crown jewel and breadwinner in any collegiate athletic department. A successful football program is not only a source of revenue for the university, it is also a powerful marketing tool, as studies have shown winning to be associated with increased donations, academic reputation, and lower acceptance rates. Therefore, it’s no surprise that coaches wield significant power and lofty salaries.&lt;/p&gt;
+&lt;p&gt;Coaches also carry the burden of high expectations, poor job security, and an average tenure of only 3.8 years. While the decision to hire or fire a coach is a multi-factorial process, it is primarily driven by their record. Consequently, a coach’s value, particularly with donors and fans, is inextricably tied to their performance on the field.&lt;/p&gt;
+&lt;p&gt;However, wins and losses are driven by several factors, many of which are outside a coach’s control, including conference affiliation, prestige, location, historical success, and financial investment from the university. As such, a coach’s record is not the most objective way to assess their value. In this project we will set out to define an approach for evaluating coaches while minimizing the impact of these confounding factors. Let&amp;rsquo;s get started!&lt;/p&gt;
+&lt;p&gt;Continue reading on Medium: &lt;a href=&#34;https://medium.com/@arsakhare87/using-data-science-to-evaluate-recruiting-and-player-development-in-college-football-a8c5c5cd447d&#34;&gt; Using Data Science to Evaluate Recruiting and Player Development in College Football &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -27,8 +34,9 @@
       <pubDate>Fri, 05 Jun 2020 22:19:19 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/sals-sanctuary/</guid>
       <description>&lt;p&gt;&lt;b&gt; Overview &lt;/b&gt;&lt;br&gt;
-This is the first in our trilogy of virtual reality exergames. You start the game as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and return them safely to the sanctuary. There are two primary cognitive skills assessed each time you participate in a rescue mission: selective attention and spatial navigation.&lt;/p&gt;
-&lt;p&gt;For the selective attention task, you are required to pick up food associated with the diet of the animal you are currently rescuing. For spatial navigation, you are assigned to one route each day. You will complete 4 rescue missions. each time biking along this route and rescuing an animal before you end up at the gates of the sanctuary. For the first two rescue missions, we will provide arrows to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as cues. At the beginning of each day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located further away from the sanctuary.&lt;/p&gt;
+The first in a trilogy of virtual reality exergames designed to enhance brain health. Your adventure begins as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and returning them safely. Your selective attention and spatial navigation abilities will be tested each time you conduct a rescue mission.&lt;/p&gt;
+&lt;p&gt;You are assigned to one route each day and will be required to make at least 4 search and rescue trips along this route. Once an animal is located, you will pick it up and bring it back to the gates of the sanctuary before starting your next search and rescue. You are also required to pick up any food along the route that is associated with the diet of the animal you have rescued.&lt;/p&gt;
+&lt;p&gt;For the first two rescue missions, we will provide visual guidance to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as your guidance. At the beginning of each new day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located farther away from the sanctuary.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kI0bbrvH4hU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -193,9 +201,9 @@ associated with a reduced risk of dementia. Virtual reality is a promising techn
 
 	&lt;h3 id=&#34;bgamesb&#34;&gt;&lt;b&gt;Games&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;Sal&amp;rsquo;s Sanctuary and Wildlife Enclosure are two fun, engaging, and cognitively challenging virtual reality exergames designed specifically for older adults. A third game, Underwater Adventures is currently in development.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/sals-sanctuary/&#34;&gt;Sal&amp;rsquo;s Sanctuary&lt;/a&gt; - Rescue animals while navigating an urban environment in this fun and cognitively challenging virtual reality exergame&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/wildlife-enclosure/&#34;&gt;Wildlife Enclosure&lt;/a&gt; - Look after and take care of the animals while navigating a savannah, safari, jungle, and aviary in this fun and cognitively challenging virtual reality exergame&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Underwater Adventures (In Development)&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/sals-sanctuary/&#34;&gt;Sal&amp;rsquo;s Sanctuary&lt;/a&gt; - Rescue animals that have escaped the sanctuary while navigating an urban environment&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/wildlife-enclosure/&#34;&gt;Wildlife Enclosure&lt;/a&gt; - Look after and take care of rescued animals located in exotic environments&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Underwater Adventures (In Development)&lt;/b&gt; - Explore and photograph aquatic life in this underwater world&lt;/p&gt;
 
 
 &lt;/div&gt;
@@ -216,10 +224,11 @@ associated with a reduced risk of dementia. Virtual reality is a promising techn
 &lt;ol&gt;
   &lt;li&gt;Developed a cognitively challenging exergame in virtual reality for older adults &lt;b&gt;(Lead Engineer)&lt;/b&gt;&lt;/li&gt;
   &lt;li&gt;Developed the environments, physics, and interaction system for the game&lt;/li&gt;
-  &lt;li&gt;Collaborated with a small, high-energy team of undergraduate students, master’s students, and professors&lt;/li&gt;
+  &lt;li&gt;Collaborated with a small, high-energy team of undergraduate students, master students, and professors&lt;/li&gt;
   &lt;li&gt;Optimized performance by utilizing assets and other techniques to reduce rendering overhead in virtual reality&lt;/li&gt;
-  &lt;li&gt;Integrated a heart rate monitor and custom-built exercise bike into to the game&lt;/li&gt;
-  &lt;li&gt;Designed and developed a SQL database to store data&lt;/li&gt;
+  &lt;li&gt;Integrated a heart rate monitor into to the game for monitoring a users heart rate and heart rate variability&lt;/li&gt;
+  &lt;li&gt;Integrated a custom-built exercise bike as an input controller for biking in the game&lt;/li&gt;
+  &lt;li&gt;Designed and developed a SQL database to store game data&lt;/li&gt;
   &lt;li&gt;Designed and developed a login and registration system to manage a user’s session&lt;/li&gt;
   &lt;li&gt;Installed and maintained a version control server&lt;/li&gt;
 &lt;/ol&gt;
