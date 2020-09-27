@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clinical Research | </title>
+    <link>https://arsakhar.github.io/category/clinical-research/</link>
+      <atom:link href="https://arsakhar.github.io/category/clinical-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Clinical Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
+    <image>
+      <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Clinical Research</title>
+      <link>https://arsakhar.github.io/category/clinical-research/</link>
+    </image>
+    
+    <item>
+      <title>FitViz</title>
+      <link>https://arsakhar.github.io/project/fitviz/</link>
+      <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/fitviz/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;br&gt;
+FitViz is a monitoring client designed for fitness enthusiasts and gamers. It supports real-time visualization and tracking of health and fitness data sent from ANT+ devices. FitViz also provides networking capabilities allowing game developers to easily integrate ANT+ devices, such as bike trainers and heart rate monitors, into their own game.&lt;/p&gt;
+&lt;p&gt;The idea behind this project was to provide a standalone PC application that allowed me to interface with a Wahoo Kickr Snap bike trainer. In particular, I was interested in obtaining real-time measurements of speed and power from the Wahoo Kickr to be used as an input controller for a VR game.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;About ANT+&lt;/b&gt;&lt;br&gt;
+ANT+ is a wireless sensor network technology that allows you to moniter data broadcast from ANT+ capable devices. Fitness equipment, bike trainers, heart rate monitors, and blood pressure monitors are just a few of the many devices supported within the ANT+ ecosystem. Data broadcast from ANT+ devices is standardized based on the type of data being sent. ANT+ refers to a data type as a device profile. An ANT+ device can broadcast data associated with multiple device profiles. For example, the Wahoo Kickr Snap broadcasts bicycle power and fitness equipment data.&lt;/p&gt;
+&lt;p&gt;FitViz can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/FitViz&#34;&gt;https://github.com/arsakhar/FitViz&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

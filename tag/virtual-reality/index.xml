@@ -5,7 +5,7 @@
     <link>https://arsakhar.github.io/tag/virtual-reality/</link>
       <atom:link href="https://arsakhar.github.io/tag/virtual-reality/index.xml" rel="self" type="application/rss+xml" />
     <description>Virtual Reality</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 22:19:19 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2020 22:19:19 -0700</lastBuildDate>
     <image>
       <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Virtual Reality</title>
@@ -13,15 +13,58 @@
     </image>
     
     <item>
+      <title>NeuroRiderVR</title>
+      <link>https://arsakhar.github.io/project/vr-bike/</link>
+      <pubDate>Sun, 28 Jun 2020 22:19:19 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/vr-bike/</guid>
+      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;In a recent blog post (&lt;a href=&#34;https://arsakhar.github.io/blog/commercial-locomotion/&#34;&gt;Locomotion in VR&lt;/a&gt;), I detailed some of the current technology that exists for locomotion in VR. Until recently, VirZoom was the only virtual reality bike on the market. However, at CES 2019, Nordic Track announced the release of their VR bike. This is great news for VR as many of the bigger companies are starting to see the value of VR in exercise and entertainment. The target audience for both VR bikes are generally younger to middle aged adults with a focus on entertainment, exercise, and gaming.&lt;/p&gt;
+&lt;p&gt;In our academic research lab, we focus on the applications of VR to rehabilitation in an older adult population. At the time of our VR biking study in older adults, the Nordic Track VR bike did not exist. While the VirZoom bike was a possibility, we did have several concerns. Turning in VR with the VirZoom bike is achieved by leaning one&amp;rsquo;s body in the intended direction of movement. VirZoom claims that this is a more natural method of turning that minimizes motion sickness and improves user safety while riding the VR bike.&lt;/p&gt;
+&lt;p&gt;When we tried the VirZoom bike in our lab, our initial impressions were that it was a bit unnatural. While it&amp;rsquo;s possible that users would adjust to this over time, we thought the older adult population might do better on a bike with a turning mechanism that more closely resembled that of an actual bike. Furthermore, we hypothesized that requiring older adults to lean might introduce an additional safety risk, particularly in those with poor postural stability.&lt;/p&gt;
+&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
+&lt;p&gt;Our objective was to develop a custom bike that would allow for turning in VR by the same mechanism of a regular bike, rotating the handlebar clockwise or counter-clockwise. Moreover, we wanted our design to include digital control of the pedal resistance. This would allow for real-time manipulation of pedal resistance when participants were going up or down hills in a VR environment or as a means to increase a participants exertion during exercise.&lt;/p&gt;
+&lt;h3 id=&#34;design-requirements&#34;&gt;Design Requirements&lt;/h3&gt;
+&lt;p&gt;The primary design requirements for our custom bike were stability, comfort, and ease of access for older adults. The bike was required to accommodate adults of different heights, trunk, leg, and arm lengths, and the turning and braking mechanisms for our bike were to be similar to that of a road bike. Furthermore, the bike was to be designed such that the pedal resistance could be manipulated from the computer in real-time. Finally, the bike should be able to interface with a computer and provide speed, turning, temperature, and braking feedback.&lt;/p&gt;
+&lt;h3 id=&#34;mechanical-design&#34;&gt;Mechanical Design&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/cad-model.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The first step in the design process was to create a model of the bike using SolidWorks, a 3D CAD software. We then had the bike fabricated at our University&#39;s (USC) machine shop. The drivetrain, handlebar, and seat post frames were welded and constructed out of aluminum to reduce weight and cost. All other components, including the leg stabilizers and gearing mechanism within the drive train were bolt-mounted for ease of assembly/disassembly. The bike was comprised of adjustable angled telescopic seat and handlebar posts. The handlebar was mounted to a ball-bearing to allow approximately 150 degrees rotation. A brass set screw was used to manually adjust the resistance to turning. The bike consisted of a double gear reduction such that the output torque was approximately 11.5% of the input torque. A freewheel sprocket was used to allow for coasting. Radially oriented electromagnets were mounted concentrically inside a flywheel to allow for varying of pedal resistance using the principles of eddy current braking.&lt;/p&gt;
+&lt;h3 id=&#34;electrical-design&#34;&gt;Electrical Design&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/circuit.png&#34; alt=&#34;Example image&#34;&gt;
+&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/schematic.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Speed Detection&lt;/b&gt;&lt;br&gt;
+Speed detection was achieved using a custom laser-cut acrylic encoder wheel and Omron EE-SV3-D transmissive optical sensor. The optical sensor consisted of a photodiode (light emitter) and phototransistor (light detector). A standard 220 Ω resistor was connected in series between the 5V supply voltage and anode to keep the forward current within its specified current rating. The phototransistor was configured as a common collector (CC) phototransistor circuit. A 10 kΩ load resistor was added between ground and the emitter to configure the phototransistor for switch mode (), where the output was either OFF or ON based on the absence or presence of light, respectively. It should be noted that a 5 kΩ load resistor is typically adequate for switch mode and will have a faster response time to changes in light intensity compared to a 10 kΩ load resistor. The output signal from the collector was connected to a digital pin on the Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Turning and Brake Sensing&lt;/b&gt;&lt;br&gt;
+A linear, rotatory 10 kΩ potentiometer and dual-axis XY joystick module were used for turning and brake sensing, respectively. Both sensors were configured as voltage dividers, outputting a voltage between 0V and the 5V supply voltage based on the rotation of the knob or the deflection of the joystick.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Temperature Sensor&lt;/b&gt;&lt;br&gt;
+A TMP36 semi-conductor temperature sensor was used to monitor heat dissipation at the electromagnet coils. A 100 nF capacitor was added between the output pin and ground for each sensor to dampen signal fluctuations due to mechanical bounce, electrical noise, and electromagnetic interference. The output pin on each sensor was connected to a unique analog pin on the Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Pedal Resistance&lt;/b&gt;&lt;br&gt;
+Pulse width modulation (PWM) and a RFP30N06LE MOSFET transistor were used to manipulate pedal resistance. An HCPL-7710 opto-isolator was placed between the Arduino’s digital PWM signal and the MOSFET to electrically isolate the MOSFET from the Arduino. Indeed, the high PWM signal frequency (490 Hz) resulted in frequent switching of the MOSFET which caused undesirable noise during signal sampling. The PWM signal was connected to pin 2 of the opto-isolator. Arduino’s 5V power supply and ground were connected to pins 1 and 4 of the opto-isolator. 12V from an external variable power supply was regulated down to 5V via a L7805ABV linear voltage regulator and connected to pin 5 of the opto-isolator. Pin 8 of the opto-isolator was connected to ground of the external power supply. A 100 nF capacitor was connected between pins 1 and 4 and 5 and 8 of the opto-isolator in accordance with datasheet recommendations. Similarly, a 330 nF and 100 nF capacitor were connected between ground and the voltage regulator input and output pins, respectively.&lt;/p&gt;
+&lt;p&gt;The opto-isolated PWM signal at pin 6 of the opto-isolator was connected to the gate pin on the MOSFET. A 47 Ω gate resistor was placed in series with pin 6 of the opto-isolator and the MOSFET gate to limited ringing and electrical noise due to parasitic inductance. A 10 kΩ pull-down resistor was connected in series between ground and the MOSFET gate to pull the voltage down and turn the MOSFET off in the absence of a PWM input signal. The MOSFET source was connected to the source of the MOSFET. One electromagnet lead was connected to the source of the MOSFET, while the other was connected to 12V power from the external power supply. An 1N5817 Schottky diode was connected in parallel with the leads of the electromagnet to prevent flyback when current to the electromagnet is interrupted. A 2000 µF electrolytic capacitor and 100 nF capacitor were connected in parallel across 12V power and ground from the external power supply to smooth out the input voltage to the electromagnet.&lt;/p&gt;
+&lt;h3 id=&#34;arduino-programming&#34;&gt;Arduino Programming&lt;/h3&gt;
+&lt;p&gt;The temperature, turning, and braking sensors were connected to analog input pins, the speed sensor was connected to a digital input pin, and pedal resistance was provided by a PWM output pin on the Arduino Uno. The Arduino Uno connected to the PC via a USB A-Male to B-Male cable. A standard Arduino Uno driver was used to establish the connection as a COM port on the PC. The baud rate was set to 1,000,000 for serial port communication.&lt;/p&gt;
+&lt;p&gt;The ResponsiveAnalogRead library was used to reduce noise associated with the analog input signals for the brake, turning, and temperature sensors. All analog sensor values were updated within the main loop. For the speed sensor, an interrupt trigger was used to track when the state of the optical sensor changed. A digital pin reads HIGH(1) when the voltage signal is &amp;gt; 3.0V and LOW(0) when the voltage is &amp;lt; 3.0V on a 5V Arduino board.&lt;/p&gt;
+&lt;p&gt;When determining speed, the Arduino code is structured to count the number of times the digital interrupt is triggered over a specified sampling period of 50ms. A digital interrupt is triggered when the encoder wheel spoke enters and leaves the light path. The number of interrupts over this 50 ms period is then converted to a speed using the following formula:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Interrupt Count&lt;/b&gt; (counts/s) = Interrupt Count * (1 / 50 ms) * (1 / 1000s)
+&lt;br&gt;&lt;b&gt;Speed (m/s)&lt;/b&gt; = (2 * pi * Flywheel Radius (m)) / (Spokes per Revolution) * (Interrupt Count)&lt;/p&gt;
+&lt;p&gt;Note: In practice, an additional fudge factor may be necessary to get the perceived pedal speed to correctly match the speed at which the user moves through the virtual environment&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Encoder Wheel&lt;/b&gt;&lt;br&gt;
+The encoder wheel was mounted to the output shaft of the flywheel and centered within the gap of the optical sensor. For the encoder wheels, we laser cut 6 different variations out of acrylic. These variations included 2, 4, 8, 16, 32, 64, and 128 spokes. For each wheel, we evaluated 2 conditions: aliasing and a ceiling effect. Aliasing occurs when the encoder wheel rotates faster than the optical sensor can react to the light change or the Arduino can trigger the digital interrupt pin. With a 10K load resistor, the response time of the phototransistor is approximately 100 µs. With the Arduino, the interrupt service routine theoretically executes every .625 µS based on a clock speed of 16 MHz.&lt;/p&gt;
+&lt;p&gt;However, in practice, this is often much slower due to factors such as code overhead and often results in an interrupt frequency on the scale of milliseconds, which likely makes it the rate limiting step. The ceiling effect occurs when the resolution of the encoder wheel is too small to capture the actual pedal speed. In other words, after a certain pedal speed, the number of spokes that pass through the optical sensor gets capped over a 50 ms period. During testing, we found that the 2,4,8, and 16 spoke encoder wheels experienced the ceiling effect while the 128 spoke encoder wheel had significant aliasing at normal pedal speeds. We found the 64 spoke encoder wheel to be the best option as we found no aliasing and no ceiling effect, even at very high pedal speeds.&lt;/p&gt;
+&lt;h3 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;The bike design was a team effort with significant contributions from Roshan Ravichandran (lead mechanical design) and Delian Delev (lead electrical design). Additional design support was provided by Chintan Raja and Vincent Yang. Electromagnet guidance was provided by Andrew Bushnell. Special thanks to Don Wiggins and the USC machine shop for manufacturing the bike.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sal&#39;s Sanctuary</title>
       <link>https://arsakhar.github.io/project/sals-sanctuary/</link>
       <pubDate>Fri, 05 Jun 2020 22:19:19 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/sals-sanctuary/</guid>
-      <description>&lt;p&gt;&lt;b&gt; Overview &lt;/b&gt;&lt;br&gt;
-The first in a trilogy of virtual reality exergames designed to enhance brain health. Your adventure begins as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and returning them safely. Your selective attention and spatial navigation abilities will be tested each time you conduct a rescue mission.&lt;/p&gt;
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The first in a trilogy of virtual reality exergames designed to enhance brain health. Your adventure begins as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and returning them safely. Your selective attention and spatial navigation abilities will be tested each time you conduct a rescue mission.&lt;/p&gt;
 &lt;p&gt;You are assigned to one route each day and will be required to make at least 4 search and rescue trips along this route. Once an animal is located, you will pick it up and bring it back to the gates of the sanctuary before starting your next search and rescue. You are also required to pick up any food along the route that is associated with the diet of the animal you have rescued.&lt;/p&gt;
 &lt;p&gt;For the first two rescue missions, we will provide visual guidance to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as your guidance. At the beginning of each new day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located farther away from the sanctuary.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kI0bbrvH4hU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -40,6 +83,425 @@ The first in a trilogy of virtual reality exergames designed to enhance brain he
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/YLXAhpwOIpM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unity3D - Performance Optimization</title>
+      <link>https://arsakhar.github.io/blog/game-optimization/</link>
+      <pubDate>Thu, 08 Aug 2019 22:42:40 -0700</pubDate>
+      <guid>https://arsakhar.github.io/blog/game-optimization/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Background&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Garbage Collection&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab13&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Polygon Count&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab14&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Draw Calls&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab15&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Camera Culling&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab16&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Static Batching&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab17&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;References&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;The majority of VR headsets on the market use a 90 Hz refresh rate, such that the display on the headset is refreshed every 11 ms. Dropped frames will occur if the computer is unable to render an image within that time frame. API’s employ several techniques to account for dropped frames. These include timewarp, asynchronous timewarp, interleaved reprojection, motion smoothing, and positional timewarp.&lt;sup&gt;4&lt;/sup&gt; While these techniques account for dropped frames to a certain extent, a poorly optimized game will still result in jittery views which can be quite nauseogenic. Therefore, performance optimization is a key component of VR game development. In this article, I will provide a brief overview of the most common techniques used to optimize performance. I will also provide links that provide a more in-depth discussion of each technique. Please note that this is not an exhaustive list of performance tips, rather a list of low hanging fruit that can lead to substantial improvements in performance.
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h3 id=&#34;garbage-collection&#34;&gt;Garbage Collection&lt;/h3&gt;
+&lt;p&gt;Garbage collection (GC) is a form of automated memory management.&lt;sup&gt;1&lt;/sup&gt; There are two types of memory allocation: heap and stack. Furthermore, there are two data types: primitive and non-primitive.&lt;sup&gt;3&lt;/sup&gt; Primitive data types include the following: bool, bytes, short, int, long, float, double, decimal, and char. All primitive data type values are stored in stack memory. Non-primitive data types are objects and include the following: class, struct, enum, array, and string. Non-primitive data types are known as reference types, as the stack memory only contains a reference to the value. The reference in the stack points to an object located in heap memory that contains the value . GC only track objects (non-primitive data types) that occupy space in heap memory.&lt;sup&gt;2&lt;/sup&gt; The job of GC is to free memory when the object is no longer being referenced in the stack memory.&lt;/p&gt;
+&lt;p&gt;Unity uses the Boehm–Demers–Weiser GC5, which is a type of stop-the-world GC. This means that when GC is required, code execution will stop until the GC process is complete. Depending on the frequency of GC, this can result in dropped frames and significantly affect the smoothness of gameplay. The figure below illustrates code that minimizes garbage collection (GoodExample) and unnecessarily increases garbage collection (BadExample).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/game-optimization/garbage-collect.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the bad example, we are instantiating a new WaitForSeconds routine every second. This results in a heap memory allocation every time an instance of WaitForSeconds is created. Each heap memory allocation is going to trigger a garbage collection. To minimize garbage collection, a single instance of WaitForSeconds can be used used if the wait period is the same each time.&lt;/p&gt;
+&lt;p&gt;Further Reading:&lt;br&gt;
+&lt;a href=&#34;https://jacksondunstan.com/articles/2981&#34;&gt;https://jacksondunstan.com/articles/2981&lt;/a&gt;
+&lt;a href=&#34;http://blog.tochasstudios.com/2015/11/cache-coroutines.html&#34;&gt;http://blog.tochasstudios.com/2015/11/cache-coroutines.html&lt;/a&gt;
+&lt;a href=&#34;https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/&#34;&gt;https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab13&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName3&#34;&gt;
+
+	&lt;h3 id=&#34;polygon-count&#34;&gt;Polygon Count&lt;/h3&gt;
+&lt;p&gt;The primary responsibility of the GPU is to render an image to the screen. The complexity of an image can significantly impact rendering performance. In VR, the images that are rendered are 3D meshes. Briefly, all meshes are composed of smaller units known as polygons, which can be further decomposed into triangles. Triangles consist of vertices whose positions can be stored as an array of values (x,y,z). During rendering, the GPU first uses a vertex shader to compute where the triangle should be placed on the screen and then uses a fragment shader to fill in the pixels (rasterize) within the vertices of the triangle.&lt;sup&gt;6&lt;/sup&gt; With modern GPU’s, polygon counts aren’t typically a bottleneck for performance. However, it’s still good practice for developers to simplify meshes in situations where detailed renderings aren’t needed. Blender is a free 3D modeling program that has the ability to simplify a mesh using the decimate function.&lt;/p&gt;
+&lt;p&gt;Further Reading:&lt;br&gt;
+&lt;a href=&#34;http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/&#34;&gt;http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab14&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName4&#34;&gt;
+
+	&lt;h3 id=&#34;draw-calls&#34;&gt;Draw Calls&lt;/h3&gt;
+&lt;p&gt;A draw call is an instruction sent from the CPU to the GPU to render an image to the screen. An excessive number of draw calls can bottleneck the CPU if it is unable to push all draw call instructions to the GPU within that frame. In Unity, a draw call is required any time the GPU has to render a material. Multiple materials can be assigned to a single mesh, while a single diffuse texture is typically assigned to each material. A mesh consisting of 4 materials would require 4 separate draw calls from the CPU. The number of draw calls can be minimized by combining multiple meshes into a single mesh and applying a single material to that mesh. The use of a single material is possible through texture atlases, which map out how a texture is laid onto a material. MeshBaker on the Unity Asset Store is a popular asset that allows user’s to combine meshes and create texture atlases.&lt;sup&gt;7&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Further Reading:&lt;br&gt;
+&lt;a href=&#34;https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381&#34;&gt;https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab15&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName5&#34;&gt;
+
+	&lt;h3 id=&#34;camera-culling&#34;&gt;Camera Culling&lt;/h3&gt;
+&lt;p&gt;By default, the camera in the game will render everything within its FOV. However, this is not always necessary as the user’s viewing depth is typically limited by vegetation, buildings, and other objects within the scene. Consider setting a culling distance such that any objects past that distance are not rendered. Game objects can even be assigned to different layers and a separate culling distance can be used for each layer. For example, flowers may require a shorter culling distance while larger landmarks may require a larger culling distance.&lt;/p&gt;
+&lt;p&gt;Further Reading:&lt;br&gt;
+&lt;a href=&#34;https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html&#34;&gt;https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab16&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName6&#34;&gt;
+
+	&lt;h3 id=&#34;static-batching&#34;&gt;Static Batching&lt;/h3&gt;
+&lt;p&gt;For any object that isn’t moving in the environment, enable static batching. This combines all meshes that have the same material into 1 and renders it in 1 draw call. The negative is increased memory overhead. However, the advantage of this over consolidating into 1 mesh is that you can still cull each object individually.
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab17&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName7&#34;&gt;
+
+	&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;“Garbage collection (computer science) – Wikipedia.” [Online]. Available: &lt;a href=&#34;https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)&#34;&gt;https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)&lt;/a&gt;. [Accessed: 19-Jun-2019].&lt;/li&gt;
+&lt;li&gt;“Feature Preview: Incremental Garbage Collection – Unity Blog.” [Online]. Available: &lt;a href=&#34;https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/&#34;&gt;https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/&lt;/a&gt;. [Accessed: 19-Jun-2019].&lt;/li&gt;
+&lt;li&gt;“C# Variables: Primitive and Non-primitive Types.” [Online]. Available: &lt;a href=&#34;http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/&#34;&gt;http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/&lt;/a&gt;. [Accessed: 19-Jun-2019].&lt;/li&gt;
+&lt;li&gt;D. Heaney, D. Jagneaux, J. Feltham, and J. Feltham, “VR Timewarp, Spacewarp, Reprojection, And Motion Smoothing Explained,” UploadVR, 18-Jan-2019. [Online]. Available: &lt;a href=&#34;https://uploadvr.com/reprojection-explained/&#34;&gt;https://uploadvr.com/reprojection-explained/&lt;/a&gt;. [Accessed: 15-Jul-2019]&lt;/li&gt;
+&lt;li&gt;A garbage collector for C and C++. (2019). Retrieved from &lt;a href=&#34;https://www.hboehm.info/gc/&#34;&gt;https://www.hboehm.info/gc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eskil_steenberg. “Model for Real Time-Beyond Counting Polygons.” Intel® Software, Intel, 15 Dec. 2018, software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons.&lt;/li&gt;
+&lt;li&gt;Digital Opus, digitalopus.ca/site/mesh-baker/.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Locomotion in Virtual Reality</title>
+      <link>https://arsakhar.github.io/blog/commercial-locomotion/</link>
+      <pubDate>Sun, 03 Feb 2019 15:30:47 -0700</pubDate>
+      <guid>https://arsakhar.github.io/blog/commercial-locomotion/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Background&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Treadmills&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab13&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Bikes&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab14&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;References&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Developing games that require locomotion is a significant challenge in virtual reality, as freedom of movement is restricted by cables on a tethered headset and transmitter signal strength on a wireless headset. Furthermore, movement is also constrained to the dimensions of the physical space in which movement is occurring.&lt;/p&gt;
+&lt;p&gt;To circumvent this problem, companies and research labs have developed solutions that allow user’s to move through a virtual environment while remaining stationary. In this post, i’ll highlight two of the most popular locomotion techniques in VR: treadmills and stationary exercise bikes.&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h3 id=&#34;treadmills&#34;&gt;Treadmills&lt;/h3&gt;
+&lt;p&gt;Virtuix ( &lt;a href=&#34;https://www.virtuix.com/&#34;&gt;https://www.virtuix.com/&lt;/a&gt; ) was one of the first companies to tread into the space of VR locomotion with a kickstarter campaign in June 2013.5 The Virtuix Omni is an omni-directional treadmill that allows users 360 degrees freedom of movement. A brief description of the system is below:&lt;/p&gt;
+&lt;p&gt;“To use the Omni system, players wear special overshoes which stretch to fit over normal footwear. The player is held in place by a comfortable but firm harness. The HTC Vive VR headset is dropped down from above each player, so no wires get in the way to disrupt the VR illusion. The players’ feet slide along the plastic dish under their feet, while inside the simulation, they move forward, providing the unique full immersion of free roam VR in a much, much smaller space.”&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/commercial-locomotion/omniverse.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;https://www.virtuix.com/virtuix-omni-rides-vr-esports-explosion-to-one-million-plays/&lt;/figcaption&gt;
+&lt;p&gt;Other VR treadmills include:&lt;sup&gt;2,3,4&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;KatVR (&lt;a href=&#34;https://katvr.com/&#34;&gt;https://katvr.com/&lt;/a&gt;)&lt;br&gt;
+Cyberith Virtualizer (&lt;a href=&#34;https://www.cyberith.com/&#34;&gt;https://www.cyberith.com/&lt;/a&gt;)&lt;br&gt;
+Omnideck (&lt;a href=&#34;http://omnifinity.se/&#34;&gt;http://omnifinity.se/&lt;/a&gt;)&lt;br&gt;
+Infinadeck (&lt;a href=&#34;https://www.infinadeck.com/&#34;&gt;https://www.infinadeck.com/&lt;/a&gt;)&lt;br&gt;
+The Aperium Pod (&lt;a href=&#34;http://aperiumreality.com/index.php/en/home/&#34;&gt;http://aperiumreality.com/index.php/en/home/&lt;/a&gt;)&lt;br&gt;
+Spacewalker VR (&lt;a href=&#34;http://www.spacewalkervr.com/&#34;&gt;http://www.spacewalkervr.com/&lt;/a&gt;)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The KatVR, Cyberith Virtualizer, Aperium Pod, and Spacewalk VR are considered “slidemills”, as they require the user to slide their feet against a platform to engage in locomotion. The omnideck and infinideck are equipped with a variable-speed treadmill platform that utilizes positional feedback to ensure the user is always located near the center of the platform.&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab13&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName3&#34;&gt;
+
+	&lt;h3 id=&#34;stationary-exercise-bikes&#34;&gt;Stationary Exercise Bikes&lt;/h3&gt;
+&lt;p&gt;In 2016, VirZoom (&lt;a href=&#34;https://www.virzoom.com/&#34;&gt;https://www.virzoom.com/&lt;/a&gt;) released the first stationary exercise bike designed to support locomotion in VR. The bike (pictured below) is equipped with a number of buttons on the handlebars, making it well-suited for gaming and exercise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/commercial-locomotion/vir-zoom.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;figcaption&gt;https://www.roadtovr.com/virzoom-closes-5-5m-seed-funding-develop-second-generation-vr-bike-kit/&lt;/figcaption&gt;
+Other VR bikes include:
+&lt;p&gt;NordicTrack VR (&lt;a href=&#34;https://www.cnet.com/news/nordictracks-vr-fitness-bike-wore-me-out-at-ces/&#34;&gt;https://www.cnet.com/news/nordictracks-vr-fitness-bike-wore-me-out-at-ces/&lt;/a&gt;)&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab14&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName4&#34;&gt;
+
+	&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.virtuix.com/virtuix-omni-rides-vr-esports-explosion-to-one-million-plays/&#34;&gt;https://www.virtuix.com/virtuix-omni-rides-vr-esports-explosion-to-one-million-plays/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://packet39.com/blog/2018/03/25/vr-treadmill-overview-march-2018/&#34;&gt;https://packet39.com/blog/2018/03/25/vr-treadmill-overview-march-2018/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vrfitnessinsider.com/vr-omnidirectional-treadmills-making-gains-towards-full-immersion-and-cardio/&#34;&gt;https://www.vrfitnessinsider.com/vr-omnidirectional-treadmills-making-gains-towards-full-immersion-and-cardio/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.aniwaa.com/blog/best-vr-treadmills-vr-slidemills/&#34;&gt;https://www.aniwaa.com/blog/best-vr-treadmills-vr-slidemills/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Virtuix_Omni&#34;&gt;https://en.wikipedia.org/wiki/Virtuix_Omni&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

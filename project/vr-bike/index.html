@@ -1,0 +1,1143 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ashwin Sakhare">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A novel, custom-built exercise bike designed for locomotion in VR">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://arsakhar.github.io/project/vr-bike/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://arsakhar.github.io/project/vr-bike/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="https://arsakhar.github.io/project/vr-bike/">
+  <meta property="og:title" content="NeuroRiderVR | ">
+  <meta property="og:description" content="A novel, custom-built exercise bike designed for locomotion in VR"><meta property="og:image" content="https://arsakhar.github.io/project/vr-bike/featured.jpg">
+  <meta property="twitter:image" content="https://arsakhar.github.io/project/vr-bike/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-06-28T22:19:19-07:00">
+    
+    <meta property="article:modified_time" content="2020-06-28T22:19:19-07:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://arsakhar.github.io/project/vr-bike/"
+  },
+  "headline": "NeuroRiderVR",
+  
+  "image": [
+    "https://arsakhar.github.io/project/vr-bike/featured.jpg"
+  ],
+  
+  "datePublished": "2020-06-28T22:19:19-07:00",
+  "dateModified": "2020-06-28T22:19:19-07:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ashwin Sakhare"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "A novel, custom-built exercise bike designed for locomotion in VR"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>NeuroRiderVR | </title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Projects</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/virtual-reality"><span>Virtual Reality</span></a>
+            
+              <a class="dropdown-item" href="/project/ncaaf-coaches"><span>Data Science</span></a>
+            
+              <a class="dropdown-item" href="/project/fitviz"><span>Brain Imaging</span></a>
+            
+              <a class="dropdown-item" href="/project/neuroflow"><span>Clinical Research</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills"><span>Skills</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h2><b>NeuroRiderVR</b></h2>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 28, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/virtual-reality/">Virtual Reality</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 350px;">
+  <div style="position: relative">
+    <img src="/project/vr-bike/featured_hu0c313f224d64574103ec0633cbc9e7f4_2289505_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="background">Background</h3>
+<p>In a recent blog post (<a href="/blog/commercial-locomotion/">Locomotion in VR</a>), I detailed some of the current technology that exists for locomotion in VR. Until recently, VirZoom was the only virtual reality bike on the market. However, at CES 2019, Nordic Track announced the release of their VR bike. This is great news for VR as many of the bigger companies are starting to see the value of VR in exercise and entertainment. The target audience for both VR bikes are generally younger to middle aged adults with a focus on entertainment, exercise, and gaming.</p>
+<p>In our academic research lab, we focus on the applications of VR to rehabilitation in an older adult population. At the time of our VR biking study in older adults, the Nordic Track VR bike did not exist. While the VirZoom bike was a possibility, we did have several concerns. Turning in VR with the VirZoom bike is achieved by leaning one&rsquo;s body in the intended direction of movement. VirZoom claims that this is a more natural method of turning that minimizes motion sickness and improves user safety while riding the VR bike.</p>
+<p>When we tried the VirZoom bike in our lab, our initial impressions were that it was a bit unnatural. While it&rsquo;s possible that users would adjust to this over time, we thought the older adult population might do better on a bike with a turning mechanism that more closely resembled that of an actual bike. Furthermore, we hypothesized that requiring older adults to lean might introduce an additional safety risk, particularly in those with poor postural stability.</p>
+<h3 id="objective">Objective</h3>
+<p>Our objective was to develop a custom bike that would allow for turning in VR by the same mechanism of a regular bike, rotating the handlebar clockwise or counter-clockwise. Moreover, we wanted our design to include digital control of the pedal resistance. This would allow for real-time manipulation of pedal resistance when participants were going up or down hills in a VR environment or as a means to increase a participants exertion during exercise.</p>
+<h3 id="design-requirements">Design Requirements</h3>
+<p>The primary design requirements for our custom bike were stability, comfort, and ease of access for older adults. The bike was required to accommodate adults of different heights, trunk, leg, and arm lengths, and the turning and braking mechanisms for our bike were to be similar to that of a road bike. Furthermore, the bike was to be designed such that the pedal resistance could be manipulated from the computer in real-time. Finally, the bike should be able to interface with a computer and provide speed, turning, temperature, and braking feedback.</p>
+<h3 id="mechanical-design">Mechanical Design</h3>
+<p><img src="/img/vr-bike/cad-model.png" alt="Example image"></p>
+<p>The first step in the design process was to create a model of the bike using SolidWorks, a 3D CAD software. We then had the bike fabricated at our University's (USC) machine shop. The drivetrain, handlebar, and seat post frames were welded and constructed out of aluminum to reduce weight and cost. All other components, including the leg stabilizers and gearing mechanism within the drive train were bolt-mounted for ease of assembly/disassembly. The bike was comprised of adjustable angled telescopic seat and handlebar posts. The handlebar was mounted to a ball-bearing to allow approximately 150 degrees rotation. A brass set screw was used to manually adjust the resistance to turning. The bike consisted of a double gear reduction such that the output torque was approximately 11.5% of the input torque. A freewheel sprocket was used to allow for coasting. Radially oriented electromagnets were mounted concentrically inside a flywheel to allow for varying of pedal resistance using the principles of eddy current braking.</p>
+<h3 id="electrical-design">Electrical Design</h3>
+<p><img src="/img/vr-bike/circuit.png" alt="Example image">
+<img src="/img/vr-bike/schematic.png" alt="Example image"></p>
+<p><b>Speed Detection</b><br>
+Speed detection was achieved using a custom laser-cut acrylic encoder wheel and Omron EE-SV3-D transmissive optical sensor. The optical sensor consisted of a photodiode (light emitter) and phototransistor (light detector). A standard 220 Ω resistor was connected in series between the 5V supply voltage and anode to keep the forward current within its specified current rating. The phototransistor was configured as a common collector (CC) phototransistor circuit. A 10 kΩ load resistor was added between ground and the emitter to configure the phototransistor for switch mode (), where the output was either OFF or ON based on the absence or presence of light, respectively. It should be noted that a 5 kΩ load resistor is typically adequate for switch mode and will have a faster response time to changes in light intensity compared to a 10 kΩ load resistor. The output signal from the collector was connected to a digital pin on the Arduino.</p>
+<p><b>Turning and Brake Sensing</b><br>
+A linear, rotatory 10 kΩ potentiometer and dual-axis XY joystick module were used for turning and brake sensing, respectively. Both sensors were configured as voltage dividers, outputting a voltage between 0V and the 5V supply voltage based on the rotation of the knob or the deflection of the joystick.</p>
+<p><b>Temperature Sensor</b><br>
+A TMP36 semi-conductor temperature sensor was used to monitor heat dissipation at the electromagnet coils. A 100 nF capacitor was added between the output pin and ground for each sensor to dampen signal fluctuations due to mechanical bounce, electrical noise, and electromagnetic interference. The output pin on each sensor was connected to a unique analog pin on the Arduino.</p>
+<p><b>Pedal Resistance</b><br>
+Pulse width modulation (PWM) and a RFP30N06LE MOSFET transistor were used to manipulate pedal resistance. An HCPL-7710 opto-isolator was placed between the Arduino’s digital PWM signal and the MOSFET to electrically isolate the MOSFET from the Arduino. Indeed, the high PWM signal frequency (490 Hz) resulted in frequent switching of the MOSFET which caused undesirable noise during signal sampling. The PWM signal was connected to pin 2 of the opto-isolator. Arduino’s 5V power supply and ground were connected to pins 1 and 4 of the opto-isolator. 12V from an external variable power supply was regulated down to 5V via a L7805ABV linear voltage regulator and connected to pin 5 of the opto-isolator. Pin 8 of the opto-isolator was connected to ground of the external power supply. A 100 nF capacitor was connected between pins 1 and 4 and 5 and 8 of the opto-isolator in accordance with datasheet recommendations. Similarly, a 330 nF and 100 nF capacitor were connected between ground and the voltage regulator input and output pins, respectively.</p>
+<p>The opto-isolated PWM signal at pin 6 of the opto-isolator was connected to the gate pin on the MOSFET. A 47 Ω gate resistor was placed in series with pin 6 of the opto-isolator and the MOSFET gate to limited ringing and electrical noise due to parasitic inductance. A 10 kΩ pull-down resistor was connected in series between ground and the MOSFET gate to pull the voltage down and turn the MOSFET off in the absence of a PWM input signal. The MOSFET source was connected to the source of the MOSFET. One electromagnet lead was connected to the source of the MOSFET, while the other was connected to 12V power from the external power supply. An 1N5817 Schottky diode was connected in parallel with the leads of the electromagnet to prevent flyback when current to the electromagnet is interrupted. A 2000 µF electrolytic capacitor and 100 nF capacitor were connected in parallel across 12V power and ground from the external power supply to smooth out the input voltage to the electromagnet.</p>
+<h3 id="arduino-programming">Arduino Programming</h3>
+<p>The temperature, turning, and braking sensors were connected to analog input pins, the speed sensor was connected to a digital input pin, and pedal resistance was provided by a PWM output pin on the Arduino Uno. The Arduino Uno connected to the PC via a USB A-Male to B-Male cable. A standard Arduino Uno driver was used to establish the connection as a COM port on the PC. The baud rate was set to 1,000,000 for serial port communication.</p>
+<p>The ResponsiveAnalogRead library was used to reduce noise associated with the analog input signals for the brake, turning, and temperature sensors. All analog sensor values were updated within the main loop. For the speed sensor, an interrupt trigger was used to track when the state of the optical sensor changed. A digital pin reads HIGH(1) when the voltage signal is &gt; 3.0V and LOW(0) when the voltage is &lt; 3.0V on a 5V Arduino board.</p>
+<p>When determining speed, the Arduino code is structured to count the number of times the digital interrupt is triggered over a specified sampling period of 50ms. A digital interrupt is triggered when the encoder wheel spoke enters and leaves the light path. The number of interrupts over this 50 ms period is then converted to a speed using the following formula:</p>
+<p><b>Interrupt Count</b> (counts/s) = Interrupt Count * (1 / 50 ms) * (1 / 1000s)
+<br><b>Speed (m/s)</b> = (2 * pi * Flywheel Radius (m)) / (Spokes per Revolution) * (Interrupt Count)</p>
+<p>Note: In practice, an additional fudge factor may be necessary to get the perceived pedal speed to correctly match the speed at which the user moves through the virtual environment</p>
+<p><b>Encoder Wheel</b><br>
+The encoder wheel was mounted to the output shaft of the flywheel and centered within the gap of the optical sensor. For the encoder wheels, we laser cut 6 different variations out of acrylic. These variations included 2, 4, 8, 16, 32, 64, and 128 spokes. For each wheel, we evaluated 2 conditions: aliasing and a ceiling effect. Aliasing occurs when the encoder wheel rotates faster than the optical sensor can react to the light change or the Arduino can trigger the digital interrupt pin. With a 10K load resistor, the response time of the phototransistor is approximately 100 µs. With the Arduino, the interrupt service routine theoretically executes every .625 µS based on a clock speed of 16 MHz.</p>
+<p>However, in practice, this is often much slower due to factors such as code overhead and often results in an interrupt frequency on the scale of milliseconds, which likely makes it the rate limiting step. The ceiling effect occurs when the resolution of the encoder wheel is too small to capture the actual pedal speed. In other words, after a certain pedal speed, the number of spokes that pass through the optical sensor gets capped over a 50 ms period. During testing, we found that the 2,4,8, and 16 spoke encoder wheels experienced the ceiling effect while the 128 spoke encoder wheel had significant aliasing at normal pedal speeds. We found the 64 spoke encoder wheel to be the best option as we found no aliasing and no ceiling effect, even at very high pedal speeds.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>The bike design was a team effort with significant contributions from Roshan Ravichandran (lead mechanical design) and Delian Delev (lead electrical design). Additional design support was provided by Chintan Raja and Vincent Yang. Electromagnet guidance was provided by Andrew Bushnell. Special thanks to Don Wiggins and the USC machine shop for manufacturing the bike.</p></p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/virtual-reality/">Virtual Reality</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://arsakhar.github.io/project/vr-bike/&amp;text=NeuroRiderVR" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://arsakhar.github.io/project/vr-bike/&amp;t=NeuroRiderVR" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=NeuroRiderVR&amp;body=https://arsakhar.github.io/project/vr-bike/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://arsakhar.github.io/project/vr-bike/&amp;title=NeuroRiderVR" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=NeuroRiderVR%20https://arsakhar.github.io/project/vr-bike/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://arsakhar.github.io/project/vr-bike/&amp;title=NeuroRiderVR" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/ashwin-sakhare/avatar_huf9f1197fd4b0cd6471eeddaa75158616_697676_270x270_fill_q90_lanczos_center.jpg" alt="Ashwin Sakhare">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://arsakhar.github.io">Ashwin Sakhare</a></h5>
+        <h6 class="card-subtitle">PhD Candidate <br>Neuroscientist | Neuroengineer</h6>
+        <p class="card-text">My research interests include developing innovative technologies to understand and treat human diseases.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/ashwin-sakhare/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=uTFwYJ0AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/arsakhar" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/sals-sanctuary/">Sal&#39;s Sanctuary</a></li>
+      
+      <li><a href="/project/wildlife-enclosure/">Wildlife Enclosure</a></li>
+      
+      <li><a href="/blog/game-optimization/">Unity3D - Performance Optimization</a></li>
+      
+      <li><a href="/blog/commercial-locomotion/">Locomotion in Virtual Reality</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

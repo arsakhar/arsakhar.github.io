@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brain Imaging | </title>
+    <link>https://arsakhar.github.io/category/brain-imaging/</link>
+      <atom:link href="https://arsakhar.github.io/category/brain-imaging/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brain Imaging</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
+    <image>
+      <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Brain Imaging</title>
+      <link>https://arsakhar.github.io/category/brain-imaging/</link>
+    </image>
+    
+    <item>
+      <title>NeuroFlow</title>
+      <link>https://arsakhar.github.io/project/neuroflow/</link>
+      <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/neuroflow/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;br&gt;
+NeuroFlow is an imaging tool that allows neuroscientists and clinicians to analyze cerebral flow dynamics in the brain. The continuous circulation of cerebrospinal fluid (CSF) and cerebral blood flow (CBF) is key to the health of our central nervous system. When CSF and CBF dynamics in the brain become dysregulated, pathophysiological states can occur. As such, cerebral flow dynamics may be an important biomarker for identifying meaningful alterations in neurological diseases.&lt;/p&gt;
+&lt;p&gt;Phase-contrast MRI (PC-MRI) is a validated, non-invasive MRI imaging technique, allowing rapid measurements of CSF and CBF flow in the brain. NeuroFlow provides a user-friendly interface for neuroscientists and clinicians to analyze PC-MRI images and extract measurements associated with cerebral flow dynamics. Moreover, NeuroFlow provides numerous tools to help user&amp;rsquo;s quickly, accurately, and painlessly analyze flow data.&lt;/p&gt;
+&lt;p&gt;NeuroFlow can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/NeuroFlow&#34;&gt;https://github.com/arsakhar/NeuroFlow&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

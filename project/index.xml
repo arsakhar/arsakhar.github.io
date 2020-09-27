@@ -5,12 +5,81 @@
     <link>https://arsakhar.github.io/project/</link>
       <atom:link href="https://arsakhar.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2020 22:19:19 -0700</lastBuildDate>
     <image>
       <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://arsakhar.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>NeuroRiderVR</title>
+      <link>https://arsakhar.github.io/project/vr-bike/</link>
+      <pubDate>Sun, 28 Jun 2020 22:19:19 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/vr-bike/</guid>
+      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;In a recent blog post (&lt;a href=&#34;https://arsakhar.github.io/blog/commercial-locomotion/&#34;&gt;Locomotion in VR&lt;/a&gt;), I detailed some of the current technology that exists for locomotion in VR. Until recently, VirZoom was the only virtual reality bike on the market. However, at CES 2019, Nordic Track announced the release of their VR bike. This is great news for VR as many of the bigger companies are starting to see the value of VR in exercise and entertainment. The target audience for both VR bikes are generally younger to middle aged adults with a focus on entertainment, exercise, and gaming.&lt;/p&gt;
+&lt;p&gt;In our academic research lab, we focus on the applications of VR to rehabilitation in an older adult population. At the time of our VR biking study in older adults, the Nordic Track VR bike did not exist. While the VirZoom bike was a possibility, we did have several concerns. Turning in VR with the VirZoom bike is achieved by leaning one&amp;rsquo;s body in the intended direction of movement. VirZoom claims that this is a more natural method of turning that minimizes motion sickness and improves user safety while riding the VR bike.&lt;/p&gt;
+&lt;p&gt;When we tried the VirZoom bike in our lab, our initial impressions were that it was a bit unnatural. While it&amp;rsquo;s possible that users would adjust to this over time, we thought the older adult population might do better on a bike with a turning mechanism that more closely resembled that of an actual bike. Furthermore, we hypothesized that requiring older adults to lean might introduce an additional safety risk, particularly in those with poor postural stability.&lt;/p&gt;
+&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
+&lt;p&gt;Our objective was to develop a custom bike that would allow for turning in VR by the same mechanism of a regular bike, rotating the handlebar clockwise or counter-clockwise. Moreover, we wanted our design to include digital control of the pedal resistance. This would allow for real-time manipulation of pedal resistance when participants were going up or down hills in a VR environment or as a means to increase a participants exertion during exercise.&lt;/p&gt;
+&lt;h3 id=&#34;design-requirements&#34;&gt;Design Requirements&lt;/h3&gt;
+&lt;p&gt;The primary design requirements for our custom bike were stability, comfort, and ease of access for older adults. The bike was required to accommodate adults of different heights, trunk, leg, and arm lengths, and the turning and braking mechanisms for our bike were to be similar to that of a road bike. Furthermore, the bike was to be designed such that the pedal resistance could be manipulated from the computer in real-time. Finally, the bike should be able to interface with a computer and provide speed, turning, temperature, and braking feedback.&lt;/p&gt;
+&lt;h3 id=&#34;mechanical-design&#34;&gt;Mechanical Design&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/cad-model.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The first step in the design process was to create a model of the bike using SolidWorks, a 3D CAD software. We then had the bike fabricated at our University&#39;s (USC) machine shop. The drivetrain, handlebar, and seat post frames were welded and constructed out of aluminum to reduce weight and cost. All other components, including the leg stabilizers and gearing mechanism within the drive train were bolt-mounted for ease of assembly/disassembly. The bike was comprised of adjustable angled telescopic seat and handlebar posts. The handlebar was mounted to a ball-bearing to allow approximately 150 degrees rotation. A brass set screw was used to manually adjust the resistance to turning. The bike consisted of a double gear reduction such that the output torque was approximately 11.5% of the input torque. A freewheel sprocket was used to allow for coasting. Radially oriented electromagnets were mounted concentrically inside a flywheel to allow for varying of pedal resistance using the principles of eddy current braking.&lt;/p&gt;
+&lt;h3 id=&#34;electrical-design&#34;&gt;Electrical Design&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/circuit.png&#34; alt=&#34;Example image&#34;&gt;
+&lt;img src=&#34;https://arsakhar.github.io/img/vr-bike/schematic.png&#34; alt=&#34;Example image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Speed Detection&lt;/b&gt;&lt;br&gt;
+Speed detection was achieved using a custom laser-cut acrylic encoder wheel and Omron EE-SV3-D transmissive optical sensor. The optical sensor consisted of a photodiode (light emitter) and phototransistor (light detector). A standard 220 Ω resistor was connected in series between the 5V supply voltage and anode to keep the forward current within its specified current rating. The phototransistor was configured as a common collector (CC) phototransistor circuit. A 10 kΩ load resistor was added between ground and the emitter to configure the phototransistor for switch mode (), where the output was either OFF or ON based on the absence or presence of light, respectively. It should be noted that a 5 kΩ load resistor is typically adequate for switch mode and will have a faster response time to changes in light intensity compared to a 10 kΩ load resistor. The output signal from the collector was connected to a digital pin on the Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Turning and Brake Sensing&lt;/b&gt;&lt;br&gt;
+A linear, rotatory 10 kΩ potentiometer and dual-axis XY joystick module were used for turning and brake sensing, respectively. Both sensors were configured as voltage dividers, outputting a voltage between 0V and the 5V supply voltage based on the rotation of the knob or the deflection of the joystick.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Temperature Sensor&lt;/b&gt;&lt;br&gt;
+A TMP36 semi-conductor temperature sensor was used to monitor heat dissipation at the electromagnet coils. A 100 nF capacitor was added between the output pin and ground for each sensor to dampen signal fluctuations due to mechanical bounce, electrical noise, and electromagnetic interference. The output pin on each sensor was connected to a unique analog pin on the Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Pedal Resistance&lt;/b&gt;&lt;br&gt;
+Pulse width modulation (PWM) and a RFP30N06LE MOSFET transistor were used to manipulate pedal resistance. An HCPL-7710 opto-isolator was placed between the Arduino’s digital PWM signal and the MOSFET to electrically isolate the MOSFET from the Arduino. Indeed, the high PWM signal frequency (490 Hz) resulted in frequent switching of the MOSFET which caused undesirable noise during signal sampling. The PWM signal was connected to pin 2 of the opto-isolator. Arduino’s 5V power supply and ground were connected to pins 1 and 4 of the opto-isolator. 12V from an external variable power supply was regulated down to 5V via a L7805ABV linear voltage regulator and connected to pin 5 of the opto-isolator. Pin 8 of the opto-isolator was connected to ground of the external power supply. A 100 nF capacitor was connected between pins 1 and 4 and 5 and 8 of the opto-isolator in accordance with datasheet recommendations. Similarly, a 330 nF and 100 nF capacitor were connected between ground and the voltage regulator input and output pins, respectively.&lt;/p&gt;
+&lt;p&gt;The opto-isolated PWM signal at pin 6 of the opto-isolator was connected to the gate pin on the MOSFET. A 47 Ω gate resistor was placed in series with pin 6 of the opto-isolator and the MOSFET gate to limited ringing and electrical noise due to parasitic inductance. A 10 kΩ pull-down resistor was connected in series between ground and the MOSFET gate to pull the voltage down and turn the MOSFET off in the absence of a PWM input signal. The MOSFET source was connected to the source of the MOSFET. One electromagnet lead was connected to the source of the MOSFET, while the other was connected to 12V power from the external power supply. An 1N5817 Schottky diode was connected in parallel with the leads of the electromagnet to prevent flyback when current to the electromagnet is interrupted. A 2000 µF electrolytic capacitor and 100 nF capacitor were connected in parallel across 12V power and ground from the external power supply to smooth out the input voltage to the electromagnet.&lt;/p&gt;
+&lt;h3 id=&#34;arduino-programming&#34;&gt;Arduino Programming&lt;/h3&gt;
+&lt;p&gt;The temperature, turning, and braking sensors were connected to analog input pins, the speed sensor was connected to a digital input pin, and pedal resistance was provided by a PWM output pin on the Arduino Uno. The Arduino Uno connected to the PC via a USB A-Male to B-Male cable. A standard Arduino Uno driver was used to establish the connection as a COM port on the PC. The baud rate was set to 1,000,000 for serial port communication.&lt;/p&gt;
+&lt;p&gt;The ResponsiveAnalogRead library was used to reduce noise associated with the analog input signals for the brake, turning, and temperature sensors. All analog sensor values were updated within the main loop. For the speed sensor, an interrupt trigger was used to track when the state of the optical sensor changed. A digital pin reads HIGH(1) when the voltage signal is &amp;gt; 3.0V and LOW(0) when the voltage is &amp;lt; 3.0V on a 5V Arduino board.&lt;/p&gt;
+&lt;p&gt;When determining speed, the Arduino code is structured to count the number of times the digital interrupt is triggered over a specified sampling period of 50ms. A digital interrupt is triggered when the encoder wheel spoke enters and leaves the light path. The number of interrupts over this 50 ms period is then converted to a speed using the following formula:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Interrupt Count&lt;/b&gt; (counts/s) = Interrupt Count * (1 / 50 ms) * (1 / 1000s)
+&lt;br&gt;&lt;b&gt;Speed (m/s)&lt;/b&gt; = (2 * pi * Flywheel Radius (m)) / (Spokes per Revolution) * (Interrupt Count)&lt;/p&gt;
+&lt;p&gt;Note: In practice, an additional fudge factor may be necessary to get the perceived pedal speed to correctly match the speed at which the user moves through the virtual environment&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Encoder Wheel&lt;/b&gt;&lt;br&gt;
+The encoder wheel was mounted to the output shaft of the flywheel and centered within the gap of the optical sensor. For the encoder wheels, we laser cut 6 different variations out of acrylic. These variations included 2, 4, 8, 16, 32, 64, and 128 spokes. For each wheel, we evaluated 2 conditions: aliasing and a ceiling effect. Aliasing occurs when the encoder wheel rotates faster than the optical sensor can react to the light change or the Arduino can trigger the digital interrupt pin. With a 10K load resistor, the response time of the phototransistor is approximately 100 µs. With the Arduino, the interrupt service routine theoretically executes every .625 µS based on a clock speed of 16 MHz.&lt;/p&gt;
+&lt;p&gt;However, in practice, this is often much slower due to factors such as code overhead and often results in an interrupt frequency on the scale of milliseconds, which likely makes it the rate limiting step. The ceiling effect occurs when the resolution of the encoder wheel is too small to capture the actual pedal speed. In other words, after a certain pedal speed, the number of spokes that pass through the optical sensor gets capped over a 50 ms period. During testing, we found that the 2,4,8, and 16 spoke encoder wheels experienced the ceiling effect while the 128 spoke encoder wheel had significant aliasing at normal pedal speeds. We found the 64 spoke encoder wheel to be the best option as we found no aliasing and no ceiling effect, even at very high pedal speeds.&lt;/p&gt;
+&lt;h3 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;The bike design was a team effort with significant contributions from Roshan Ravichandran (lead mechanical design) and Delian Delev (lead electrical design). Additional design support was provided by Chintan Raja and Vincent Yang. Electromagnet guidance was provided by Andrew Bushnell. Special thanks to Don Wiggins and the USC machine shop for manufacturing the bike.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FitViz</title>
+      <link>https://arsakhar.github.io/project/fitviz/</link>
+      <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/fitviz/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;br&gt;
+FitViz is a monitoring client designed for fitness enthusiasts and gamers. It supports real-time visualization and tracking of health and fitness data sent from ANT+ devices. FitViz also provides networking capabilities allowing game developers to easily integrate ANT+ devices, such as bike trainers and heart rate monitors, into their own game.&lt;/p&gt;
+&lt;p&gt;The idea behind this project was to provide a standalone PC application that allowed me to interface with a Wahoo Kickr Snap bike trainer. In particular, I was interested in obtaining real-time measurements of speed and power from the Wahoo Kickr to be used as an input controller for a VR game.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;About ANT+&lt;/b&gt;&lt;br&gt;
+ANT+ is a wireless sensor network technology that allows you to moniter data broadcast from ANT+ capable devices. Fitness equipment, bike trainers, heart rate monitors, and blood pressure monitors are just a few of the many devices supported within the ANT+ ecosystem. Data broadcast from ANT+ devices is standardized based on the type of data being sent. ANT+ refers to a data type as a device profile. An ANT+ device can broadcast data associated with multiple device profiles. For example, the Wahoo Kickr Snap broadcasts bicycle power and fitness equipment data.&lt;/p&gt;
+&lt;p&gt;FitViz can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/FitViz&#34;&gt;https://github.com/arsakhar/FitViz&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NeuroFlow</title>
+      <link>https://arsakhar.github.io/project/neuroflow/</link>
+      <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/neuroflow/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;br&gt;
+NeuroFlow is an imaging tool that allows neuroscientists and clinicians to analyze cerebral flow dynamics in the brain. The continuous circulation of cerebrospinal fluid (CSF) and cerebral blood flow (CBF) is key to the health of our central nervous system. When CSF and CBF dynamics in the brain become dysregulated, pathophysiological states can occur. As such, cerebral flow dynamics may be an important biomarker for identifying meaningful alterations in neurological diseases.&lt;/p&gt;
+&lt;p&gt;Phase-contrast MRI (PC-MRI) is a validated, non-invasive MRI imaging technique, allowing rapid measurements of CSF and CBF flow in the brain. NeuroFlow provides a user-friendly interface for neuroscientists and clinicians to analyze PC-MRI images and extract measurements associated with cerebral flow dynamics. Moreover, NeuroFlow provides numerous tools to help user&amp;rsquo;s quickly, accurately, and painlessly analyze flow data.&lt;/p&gt;
+&lt;p&gt;NeuroFlow can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/NeuroFlow&#34;&gt;https://github.com/arsakhar/NeuroFlow&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ranking College Football Coaches</title>
@@ -33,11 +102,11 @@ Football is the crown jewel and breadwinner in any collegiate athletic departmen
       <link>https://arsakhar.github.io/project/sals-sanctuary/</link>
       <pubDate>Fri, 05 Jun 2020 22:19:19 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/sals-sanctuary/</guid>
-      <description>&lt;p&gt;&lt;b&gt; Overview &lt;/b&gt;&lt;br&gt;
-The first in a trilogy of virtual reality exergames designed to enhance brain health. Your adventure begins as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and returning them safely. Your selective attention and spatial navigation abilities will be tested each time you conduct a rescue mission.&lt;/p&gt;
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The first in a trilogy of virtual reality exergames designed to enhance brain health. Your adventure begins as a rookie ranger at Sal&amp;rsquo;s Sanctuary, a nature reserve for animals set in an urban environment. The animal&amp;rsquo;s have escaped the sanctuary and you are tasked with locating and returning them safely. Your selective attention and spatial navigation abilities will be tested each time you conduct a rescue mission.&lt;/p&gt;
 &lt;p&gt;You are assigned to one route each day and will be required to make at least 4 search and rescue trips along this route. Once an animal is located, you will pick it up and bring it back to the gates of the sanctuary before starting your next search and rescue. You are also required to pick up any food along the route that is associated with the diet of the animal you have rescued.&lt;/p&gt;
 &lt;p&gt;For the first two rescue missions, we will provide visual guidance to help you learn the route. After 2 rescue missions, you are required to remember the route using only the landmarks and environment as your guidance. At the beginning of each new day, prior to starting your 4 rescue missions, you will be required to remember and navigate the route from the previous day. The difficulty of your routes will increase and the routes will get longer as you start rescuing animals located farther away from the sanctuary.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt; Video &lt;/b&gt;&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kI0bbrvH4hU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
