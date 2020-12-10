@@ -17,12 +17,111 @@
       <link>https://arsakhar.github.io/project/fitviz/</link>
       <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/fitviz/</guid>
-      <description>&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;br&gt;
-FitViz is a monitoring client designed for fitness enthusiasts and gamers. It supports real-time visualization and tracking of health and fitness data sent from ANT+ devices. FitViz also provides networking capabilities allowing game developers to easily integrate ANT+ devices, such as bike trainers and heart rate monitors, into their own game.&lt;/p&gt;
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Overview&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Skills&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h4 id=&#34;overview&#34;&gt;Overview&lt;/h4&gt;
+&lt;p&gt;FitViz is a monitoring client designed for fitness enthusiasts and gamers. It supports real-time visualization and tracking of health and fitness data sent from ANT+ devices. FitViz also provides networking capabilities allowing game developers to easily integrate ANT+ devices, such as bike trainers and heart rate monitors, into their own game.&lt;/p&gt;
 &lt;p&gt;The idea behind this project was to provide a standalone PC application that allowed me to interface with a Wahoo Kickr Snap bike trainer. In particular, I was interested in obtaining real-time measurements of speed and power from the Wahoo Kickr to be used as an input controller for a VR game.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;About ANT+&lt;/b&gt;&lt;br&gt;
-ANT+ is a wireless sensor network technology that allows you to moniter data broadcast from ANT+ capable devices. Fitness equipment, bike trainers, heart rate monitors, and blood pressure monitors are just a few of the many devices supported within the ANT+ ecosystem. Data broadcast from ANT+ devices is standardized based on the type of data being sent. ANT+ refers to a data type as a device profile. An ANT+ device can broadcast data associated with multiple device profiles. For example, the Wahoo Kickr Snap broadcasts bicycle power and fitness equipment data.&lt;/p&gt;
+&lt;h4 id=&#34;about-ant&#34;&gt;About ANT+&lt;/h4&gt;
+&lt;p&gt;ANT+ is a wireless sensor network technology that allows you to moniter data broadcast from ANT+ capable devices. Fitness equipment, bike trainers, heart rate monitors, and blood pressure monitors are just a few of the many devices supported within the ANT+ ecosystem. Data broadcast from ANT+ devices is standardized based on the type of data being sent. ANT+ refers to a data type as a device profile. An ANT+ device can broadcast data associated with multiple device profiles. For example, the Wahoo Kickr Snap broadcasts bicycle power and fitness equipment data.&lt;/p&gt;
 &lt;p&gt;FitViz can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/FitViz&#34;&gt;https://github.com/arsakhar/FitViz&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h4 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;ANT+ Communication&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Communicating with and reading sensor information from ANT+ devices&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Exporting Data&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Writing data to UDP port&lt;/li&gt;
+      &lt;li&gt;Saving data to CSV&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Visualization&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Developing GUI&lt;/li&gt;
+      &lt;li&gt;Displaying sensor values in real-time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Image Classification&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Training a CNN to classify MRI scans according to anatomical level in the brain&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;PyQt5&lt;/li&gt;
+  &lt;li&gt;LibAnt&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

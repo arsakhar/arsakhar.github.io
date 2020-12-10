@@ -119,17 +119,15 @@
       &lt;li&gt;Box-cox for transforming skewed distribution to a gaussian&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/ol&gt;
-&lt;ol&gt;
-&lt;/ul&gt;
 &lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Beautiful Soup&lt;/li&gt;
-&lt;li&gt;Scipy&lt;/li&gt;
-&lt;li&gt;Matplotlib&lt;/li&gt;
-&lt;li&gt;Pandas&lt;/li&gt;
-&lt;li&gt;Numpy&lt;/li&gt;
-&lt;li&gt;Scikit&lt;/li&gt;
-&lt;li&gt;StatsModels&lt;/li&gt;
+  &lt;li&gt;Beautiful Soup&lt;/li&gt;
+  &lt;li&gt;Scipy&lt;/li&gt;
+  &lt;li&gt;Matplotlib&lt;/li&gt;
+  &lt;li&gt;Pandas&lt;/li&gt;
+  &lt;li&gt;Numpy&lt;/li&gt;
+  &lt;li&gt;Scikit&lt;/li&gt;
+  &lt;li&gt;StatsModels&lt;/li&gt;
 &lt;/ol&gt;
 
 
