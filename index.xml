@@ -86,14 +86,131 @@ NeuroFlow is an imaging tool that allows neuroscientists and clinicians to analy
       <link>https://arsakhar.github.io/project/ncaaf-coaches/</link>
       <pubDate>Fri, 05 Jun 2020 23:32:49 -0700</pubDate>
       <guid>https://arsakhar.github.io/project/ncaaf-coaches/</guid>
-      <description>&lt;p&gt;&lt;b&gt;Background&lt;/b&gt;&lt;br&gt;
-I’m an avid college football fan with a keen interest in data science. For my first dive into data science, I will use some basic statistics and data manipulation to evaluate coaching in college football.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Defining the Problem&lt;/b&gt;&lt;br&gt;
-Football is the crown jewel and breadwinner in any collegiate athletic department. A successful football program is not only a source of revenue for the university, it is also a powerful marketing tool, as studies have shown winning to be associated with increased donations, academic reputation, and lower acceptance rates. Therefore, it’s no surprise that coaches wield significant power and lofty salaries.&lt;/p&gt;
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Overview&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Skills&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h4 id=&#34;backgroundbr&#34;&gt;Background&lt;br&gt;&lt;/h4&gt;
+&lt;p&gt;I’m an avid college football fan with a keen interest in data science. For my first dive into data science, I will use some basic statistics and data manipulation to evaluate coaching in college football.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;defining-the-problembbr&#34;&gt;Defining the Problem&lt;/b&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;p&gt;Football is the crown jewel and breadwinner in any collegiate athletic department. A successful football program is not only a source of revenue for the university, it is also a powerful marketing tool, as studies have shown winning to be associated with increased donations, academic reputation, and lower acceptance rates. Therefore, it’s no surprise that coaches wield significant power and lofty salaries.&lt;/p&gt;
 &lt;p&gt;Coaches also carry the burden of high expectations, poor job security, and an average tenure of only 3.8 years. While the decision to hire or fire a coach is a multi-factorial process, it is primarily driven by their record. Consequently, a coach’s value, particularly with donors and fans, is inextricably tied to their performance on the field.&lt;/p&gt;
 &lt;p&gt;However, wins and losses are driven by several factors, many of which are outside a coach’s control, including conference affiliation, prestige, location, historical success, and financial investment from the university. As such, a coach’s record is not the most objective way to assess their value. In this project we will set out to define an approach for evaluating coaches while minimizing the impact of these confounding factors. Let&amp;rsquo;s get started!&lt;/p&gt;
 &lt;p&gt;Continue reading on Medium: &lt;a href=&#34;https://medium.com/@arsakhare87/using-data-science-to-evaluate-recruiting-and-player-development-in-college-football-a8c5c5cd447d&#34;&gt; Using Data Science to Evaluate Recruiting and Player Development in College Football &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34;&gt;&lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34;&gt;https://github.com/arsakhar/NCAAF&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h4 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Data Visualization&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Histograms, scatterplots, qq plots, boxplots&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Data Scraping&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Scraping data across 4 different websites&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Data Cleaning&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Removing empty rows in dataframe&lt;/li&gt;
+      &lt;li&gt;Removing non-numeric / nan rows in dataframe&lt;/li&gt;
+      &lt;li&gt;Filtering dataframe by a specific keyword or attribute&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Data Manipulation&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Joining dataframes&lt;/li&gt;
+      &lt;li&gt;Transforming values on a dataframe column&lt;/li&gt;
+      &lt;li&gt;Applying a function elementwise on a dataframe column&lt;/li&gt;
+      &lt;li&gt;Filtering dataframe based on a specific attribute or keyword&lt;/li&gt;
+      &lt;li&gt;Aggregating on a dataframe column (standard deviation, mean, min, max, sum, count)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;Statistical Analysis&lt;/li&gt;
+    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
+      &lt;li&gt;Shapiro-Wilks test for normality&lt;/li&gt;
+      &lt;li&gt;Kruskal-Wallis non-parametric test for group differences&lt;/li&gt;
+      &lt;li&gt;Dunn post-hoc testing for pairwise comparisons&lt;/li&gt;
+      &lt;li&gt;Box-cox for transforming skewed distribution to a gaussian&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Beautiful Soup&lt;/li&gt;
+&lt;li&gt;Scipy&lt;/li&gt;
+&lt;li&gt;Matplotlib&lt;/li&gt;
+&lt;li&gt;Pandas&lt;/li&gt;
+&lt;li&gt;Numpy&lt;/li&gt;
+&lt;li&gt;Scikit&lt;/li&gt;
+&lt;li&gt;StatsModels&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -564,11 +681,545 @@ Other VR bikes include:
     </item>
     
     <item>
+      <title>Meningioma Classification using Machine Learning</title>
+      <link>https://arsakhar.github.io/project/meningioma/</link>
+      <pubDate>Sun, 03 Feb 2019 15:30:47 -0700</pubDate>
+      <guid>https://arsakhar.github.io/project/meningioma/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Objective&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Data Acquisition&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab13&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Pre-Processing&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab14&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Training&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab15&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Results&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab16&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Discussion&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab17&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;References&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab18&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Skills&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;h4 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h4&gt;
+&lt;p&gt;Meningiomas are tumors that form on the meninges, a membrane that covers the brain and spinal cord. The current standard of treatment is a craniotomy where the skull is opened to provide access to the tumor. Recent technological advances have allowed meningioma’s to be resected using minimally invasive endoscopic or key-hole surgical approaches.&lt;sup&gt;1&lt;/sup&gt; The selection of patients for these minimally invasive surgeries are based on several tumor characteristics such as pathology, vascularity, and invasiveness.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;One key characteristic that dictates ease of operation is tumor consistency, defined as texture or firmness.&lt;sup&gt;1&lt;/sup&gt; Tumor consistency, which can only be measured after surgical resection, is graded on a 5-point hardness scale (1-softest, 5-hardest).&lt;sup&gt;1,2&lt;/sup&gt; Training a machine learning model to classify a tumor according to its hardness using neuroimaging data could help physicians determine if a patient is a candidate for minimally invasive surgery.&lt;/p&gt;
+&lt;h4 id=&#34;objective&#34;&gt;Objective&lt;/h4&gt;
+&lt;p&gt;To train a convolutional neural network to classify meningioma tumors based on hardness ratings.&lt;/p&gt;
+&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34;&gt;&lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34;&gt;https://github.com/arsakhar/ML-Meningioma-Classification&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;h4 id=&#34;data-acquisition&#34;&gt;Data Acquisition&lt;/h4&gt;
+&lt;p&gt;MRI scans were acquired on 85 patients across several hospitals. For each patient, an ADC, T2 flair, T1, T1 with contrast (T1c), and T2 scan were acquired. A lesion mask was manually created by the physician after image acquisition. Resected meningioma’s were manually labeled using a 0-3 hardness scale by expert raters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/data-acquisition.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab13&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName3&#34;&gt;
+
+	&lt;h4 id=&#34;pre-processing&#34;&gt;Pre-Processing&lt;/h4&gt;
+&lt;p&gt;A supervised learning task for multi-class classification was considered based on the provided labels and discrete grading scale. A convolutional neural network classifier was chosen as the inputs were images.&lt;/p&gt;
+&lt;p&gt;The bar chart below shows the distribution of meningioma classes for the acquired data. Class 0 and 1 were the lowest and highest frequency, respectively. Overall, the dataset was highly imbalanced between classes 1, 3 and 1,2. Moreover, only a limited sample of 425 scans (85 patients and 5 scans per patient) were available for training the model.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/data-exploration.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;One issue with the acquired data was that the dimensions of the scans were consistent within a subject but differed between subjects. Briefly, an MRI scan is a 3D volume of height, width, and depth where depth represents the number of slices.&lt;/p&gt;
+&lt;p&gt;To ensure a consistent input shape into the CNN, each scan was resampled to a size of 256x256xZ. Z was set to 256 if the image had less than 256 slices. Otherwise, the original number of slices was retained.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/pre-processing-1.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;To increase the number of available training samples, each scan was decomposed into its individual slices.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/pre-processing-2.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;The figure below illustrates multiple slices across a single scan.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/pre-processing-3.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Each individual slice was then re-assigned the original class label only if it contained the lesion based on the lesion mask. Slices that did not contain a lesion were not included in training the model. Decomposing and re-assigning class labels increased the accuracy of the label assignments as a single label was no longer applied to an entire 3D volume.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/pre-processing-4.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab14&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName4&#34;&gt;
+
+	&lt;h4 id=&#34;training&#34;&gt;Training&lt;/h4&gt;
+&lt;p&gt;Residual Neural Network 152 (ResNet 152) was selected as the CNN model for training. The following hyperparameters were randomly selected and evaluated using Optuna:&lt;/p&gt;
+&lt;ul style=&#34;list-style-type:square;&#34;&gt;
+&lt;li&gt;Optimizer – Adam, RMSprop, SGD&lt;/li&gt;
+&lt;li&gt;Learning Rate – log uniform distribution, [1e-6, 1e-1]&lt;/li&gt;
+&lt;li&gt;Dropout – uniform distribution, [0.1, 0.7]&lt;/li&gt;
+&lt;li&gt;Batch Size – categorical, [16, 32, 64, 128]&lt;/li&gt;
+&lt;li&gt;L2 Regularization – log uniform distribution, [1e-10, 1e-3]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The remaining training parameters were set as follows:&lt;/p&gt;
+&lt;ul style=&#34;list-style-type:square;&#34;&gt;
+&lt;li&gt;Input Channels – 5 [t1, t1c, t2 flair, t2, adc]&lt;/li&gt;
+&lt;li&gt;# Classes – 4&lt;/li&gt;
+&lt;li&gt;# Epochs – 45&lt;/li&gt;
+&lt;li&gt;Loss function – cross-entropy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The cross-entropy loss function was weighted according to the distribution of classes in the dataset.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/training-1.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Two modifications were made to the original ResNet152 model. The first convolutional layer was modified to accept 5 input channels instead of 3 and the fully connected layer was modified to output probabilities for 4 classes instead of 1000.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/training-2.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;The ResNet 152 model was trained using 5-fold cross validation. The folds were stratified by subject to ensure all slices associated with a single subject were constrained to a single fold. Briefly, neighboring slices within a scan are structurally similar as they are anatomically acquired a few mm apart. This problem is exacerbated in subjects where the scan is up sampled to 256 slices during preprocessing. The similarity of slices results in data leakage if the slices are spread across the training and test fold. The folds were also stratified by class label to ensure the distribution of classes in the training and test fold approximated the actual distribution of classes for the acquired data.&lt;/p&gt;
+&lt;p&gt;A custom dataset class was used to load, augment, and transform the slices to tensors for input into the CNN. TorchIO, a python package for medical image preprocessing, was used for data augmentation. Briefly, both training and validation slices were normalized to a mean of zero and standard deviation of one. Training slices were also augmented with a random blur, noise, bias field, motion, spike, ghosting, affine transformations, and elastic deformations at specified probabilities. This was done to provide additional unique images for the CNN to train on in the absence of a large training dataset.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/training-3.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Each epoch consisted of a training and validation iteration. Both iterations consisted of a forward pass. Loss was calculated using the SoftMax output and target labels. The weights and bias in each layer were updated via back propagation for the training iterations. The argmax of the SoftMax output probabilities was used to calculate accuracy, defined by the proportion of correct predictions to total predictions.&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab15&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName5&#34;&gt;
+
+	&lt;h4 id=&#34;results&#34;&gt;Results&lt;/h4&gt;
+&lt;p&gt;Overall, the trained CNN model performed poorly on the validation dataset across multiple sets of hyperparameters selected by Optuna. The figure below shows the training and validation loss accuracy for a single fold and set of hyperparameters. As expected for training, the loss decreased (solid black line) and accuracy (dashed black line) increased, with accuracy approaching 95% after 45 epochs. However, validation loss (solid red line) and validation accuracy (dashed red line) did not improve during training. Validation loss decreased for the first 10 epochs before increasing. The validation accuracy increased to approximately 35% after 10 epochs before decreasing to 20%. Therefore, overfitting likely occurred after the 10th epoch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/results-1.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;The confusion matrix, calculated as a normalized sum of the confusion matrices for each k-fold, can be seen below. Of the meningiomas with an actual label of zero, the model correctly labeled 17%, while incorrectly labeling 34% and 47% as one and two, respectively. Of the meningiomas with an actual label of three, the model correctly labeled 12%, while incorrectly labeling 18% and 65% as one and two, respectively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/results-2.png&#34; /&gt;&lt;/img&gt;&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab16&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName6&#34;&gt;
+
+	&lt;h4 id=&#34;discussion&#34;&gt;Discussion&lt;/h4&gt;
+&lt;p&gt;Overall, the CNN was unable to classify Meningioma’s with high accuracy and generalized very poorly to unseen validation data. The highest validation accuracy across the training folds was only 35% which is marginally better than 25% due to random guessing. The poor validation accuracy was seen for multiple combinations of hyperparameters decreasing the likelihood that the results were due to a poorly optimized model.&lt;/p&gt;
+&lt;p&gt;Poor model performance may be due a lack of discernible patterns between classes of meningioma observed on an MRI. Indeed, it is possible that the biological properties underlying the tactile hardness, texture, and consistency differences observed by the expert rater during grading are not detectable on an MRI. It is also possible that inter-rater and intra-rater variability resulted in misclassification of some meningioma’s during labeling. This variability could affect model training as the labels are not representative of the actual ground truth.&lt;/p&gt;
+&lt;p&gt;Despite the poor overall accuracy, the model was able to discriminate between the extreme classes, zero and three, relatively well. As seen in the confusion matrix, the model rarely assigned class three to class zero and vice versa. Taken together, this suggests that there may be a detectable pattern between classes.&lt;/p&gt;
+&lt;h4 id=&#34;future-directions&#34;&gt;Future Directions&lt;/h4&gt;
+&lt;p&gt;Due to computational requirements, the grid search for the optimal hyperparameters was only run for 3 iterations. Furthermore, only the ResNet 152 CNN was trained. Training additional CNN’s and continuing the grid search over 10-15 iterations may yield a trained model better suited for the provided dataset. Different data augmentation techniques may also improve model training as well. However, these changes will likely only result in a marginal improvement in classification accuracy. To evaluate whether Meningioma’s acquired by MRI can be classified with high accuracy, additional training data is needed.&lt;/p&gt;
+&lt;p&gt;In the absence of additional training data, one possibility is to run an unsupervised machine learning technique such as k-means clustering over a range of clusters. A scree plot or silhouette analysis can then be used to identify the optimal number of clusters. The labels of the images in each cluster can then be compared to identify the purity of the cluster. If the optimal number of clusters is 4, it would suggest there is a detectable pattern aligned with the expected number of classes. Moreover, if the incorrectly labeled images in each cluster are better suited for the nearest neighboring cluster. it may suggest that inter-rater and intra-rater variability are contributing to problems with model training.&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab17&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName7&#34;&gt;
+
+	&lt;h5 id=&#34;references&#34;&gt;References&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Shiroishi, Mark S., et al. &amp;ldquo;Predicting meningioma consistency on preoperative neuroimaging studies.&amp;rdquo; Neurosurgery Clinics 27.2 (2016): 145-154.&lt;/li&gt;
+&lt;li&gt;Zada, Gabriel, et al. &amp;ldquo;A proposed grading system for standardizing tumor consistency of intracranial meningiomas.&amp;rdquo; Neurosurgical focus 35.6 (2013): E1.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab18&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName8&#34;&gt;
+
+	&lt;h4 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Pre-processing MRI data&lt;/li&gt;
+&lt;li&gt;Manipulating and training a convolutional neural network for image classification&lt;/li&gt;
+&lt;li&gt;Cross-validation for small datasets&lt;/li&gt;
+&lt;li&gt;Generating classification reports and confusion matrices&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Optuna&lt;/li&gt;
+&lt;li&gt;NiBabel&lt;/li&gt;
+&lt;li&gt;Pandas&lt;/li&gt;
+&lt;li&gt;NumPy&lt;/li&gt;
+&lt;li&gt;Torch&lt;/li&gt;
+&lt;li&gt;Torchvision&lt;/li&gt;
+&lt;li&gt;Scikit-learn&lt;/li&gt;
+&lt;li&gt;TorchIO&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Stylet locking mechanism for medical delivery devices</title>
       <link>https://arsakhar.github.io/publication/us-patent/</link>
       <pubDate>Tue, 14 Feb 2012 23:33:39 -0700</pubDate>
       <guid>https://arsakhar.github.io/publication/us-patent/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Brain Imaging</title>
+      <link>https://arsakhar.github.io/brain-imaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/brain-imaging/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Software&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;br&gt;
+&lt;b&gt;&lt;u&gt;NeuroFlow&lt;/u&gt;&lt;/b&gt;&lt;br&gt;
+A brain imaging tool for analyzing cerebral flow dynamics. (&lt;b&gt;&lt;a href=&#34;https://arsakhar.github.io/project/neuroflow/&#34;&gt;Read&lt;/a&gt;&lt;/b&gt;)
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/neuroflow/&#34;&gt;&lt;img src=&#34;https://arsakhar.github.io/project/neuroflow/featured.png&#34; /&gt;&lt;/img&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Research</title>
+      <link>https://arsakhar.github.io/clinical-research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/clinical-research/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Software&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;br&gt;
+&lt;b&gt;&lt;u&gt;FitViz&lt;/u&gt;&lt;/b&gt;&lt;br&gt;
+ANT+ Health and Fitness Monitoring Client. (&lt;b&gt;&lt;a href=&#34;https://arsakhar.github.io/project/fitviz/&#34;&gt;Read&lt;/a&gt;&lt;/b&gt;)
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/fitviz/&#34;&gt;&lt;img src=&#34;https://arsakhar.github.io/project/fitviz/featured.png&#34; /&gt;&lt;/img&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://arsakhar.github.io/data-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/data-science/</guid>
+      <description>&lt;div class=&#34;article-container-nav&#34;&gt;
+
+	&lt;nav&gt;
+	
+		&lt;div class=&#34;sticky-scroll navtab-position nav flex-row nav-pills&#34; id=&#34;nav-tab&#34; role=&#34;tablist&#34;&gt;
+			&lt;br&gt;
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link active&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab11&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;true&#34;&gt;Machine Learning&lt;/a&gt;
+
+			
+			
+
+			
+			
+			
+
+			
+
+			&lt;a class=&#34;nav-item nav-link&#34; id=&#34;nav-1&#34; data-toggle=&#34;tab&#34; href=&#34;#tab12&#34; role=&#34;tab&#34;
+				 aria-controls=&#34;nav-home&#34; aria-selected=&#34;false&#34;&gt;Data Science&lt;/a&gt;
+
+			
+			
+		&lt;/div&gt;
+	&lt;/nav&gt;
+
+	&lt;div class=&#34;article-style &#34;&gt;
+		&lt;div class=&#34;tab-content&#34; id=&#34;1&#34;&gt;
+			
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
+
+	&lt;br&gt;
+&lt;b&gt;&lt;u&gt;Meningioma Classification using Machine Learning&lt;/u&gt;&lt;/b&gt;&lt;br&gt;
+Using machine learning to predict Meningioma consistency. (&lt;b&gt;&lt;a href=&#34;https://arsakhar.github.io/project/meningioma/&#34;&gt;Read&lt;/a&gt;&lt;/b&gt;)
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/meningioma/&#34;&gt;&lt;img src=&#34;https://arsakhar.github.io/project/meningioma/featured.png&#34; /&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;Photo Credit: Basaia, Silvia, et al. NeuroImage: Clinical 21 (2019)&lt;/figcaption&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;tab-pane fade&#34; id=&#34;tab12&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName2&#34;&gt;
+
+	&lt;br&gt;
+&lt;b&gt;&lt;u&gt;Ranking College Football Coaches&lt;/u&gt;&lt;/b&gt;&lt;br&gt;
+Using data science to evaluate recruiting and player development in college football. (&lt;b&gt;&lt;a href=&#34;https://arsakhar.github.io/project/ncaaf-coaches/&#34;&gt;Read&lt;/a&gt;&lt;/b&gt;)
+&lt;p&gt;&lt;a href=&#34;https://arsakhar.github.io/project/ncaaf-coaches/&#34;&gt;&lt;img src=&#34;https://arsakhar.github.io/project/ncaaf-coaches/featured.png&#34; /&gt;&lt;/img&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
