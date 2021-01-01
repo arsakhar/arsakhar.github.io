@@ -144,10 +144,6 @@ The encoder wheel was mounted to the output shaft of the flywheel and centered w
       &lt;li&gt;Developing GUI&lt;/li&gt;
       &lt;li&gt;Displaying sensor values in real-time&lt;/li&gt;
     &lt;/ul&gt;
-  &lt;li&gt;Image Classification&lt;/li&gt;
-    &lt;ul style=&#34;list-style-type:square;&#34;&gt;
-      &lt;li&gt;Training a CNN to classify MRI scans according to anatomical level in the brain&lt;/li&gt;
-    &lt;/ul&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
 &lt;ol&gt;
