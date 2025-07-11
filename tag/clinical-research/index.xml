@@ -7,7 +7,7 @@
     <description>Clinical Research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
     <image>
-      <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png</url>
       <title>Clinical Research</title>
       <link>https://arsakhar.github.io/tag/clinical-research/</link>
     </image>
@@ -72,7 +72,8 @@
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Eyo31jKeFIw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;FitViz can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/FitViz&#34;&gt;https://github.com/arsakhar/FitViz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FitViz can be downloaded at: 
+&lt;a href=&#34;https://github.com/arsakhar/FitViz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/arsakhar/FitViz&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;/div&gt;
@@ -114,6 +115,7 @@
 
 
 &lt;/div&gt;
+
 
 
 

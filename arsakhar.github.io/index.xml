@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arsakhar.github.io | </title>
+    <link>https://arsakhar.github.io/arsakhar.github.io/</link>
+      <atom:link href="https://arsakhar.github.io/arsakhar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arsakhar.github.io</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png</url>
+      <title>Arsakhar.github.io</title>
+      <link>https://arsakhar.github.io/arsakhar.github.io/</link>
+    </image>
+    
+  </channel>
+</rss>

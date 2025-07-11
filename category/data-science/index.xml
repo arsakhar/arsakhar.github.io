@@ -7,7 +7,7 @@
     <description>Data Science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jun 2020 23:32:49 -0700</lastBuildDate>
     <image>
-      <url>https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png</url>
       <title>Data Science</title>
       <link>https://arsakhar.github.io/category/data-science/</link>
     </image>
@@ -63,15 +63,16 @@
 
 &lt;div class=&#34;tab-pane fade show active&#34; id=&#34;tab11&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;nav-tabName1&#34;&gt;
 
-	&lt;h4 id=&#34;backgroundbr&#34;&gt;Background&lt;br&gt;&lt;/h4&gt;
+	&lt;h4 id=&#34;background&#34;&gt;Background&lt;br&gt;&lt;/h4&gt;
 &lt;p&gt;I’m an avid college football fan with a keen interest in data science. For my first dive into data science, I will use some basic statistics and data manipulation to evaluate coaching in college football.
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h4 id=&#34;defining-the-problembbr&#34;&gt;Defining the Problem&lt;/b&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;defining-the-problem&#34;&gt;Defining the Problem&lt;/b&gt;&lt;br&gt;&lt;/h4&gt;
 &lt;p&gt;Football is the crown jewel and breadwinner in any collegiate athletic department. A successful football program is not only a source of revenue for the university, it is also a powerful marketing tool, as studies have shown winning to be associated with increased donations, academic reputation, and lower acceptance rates. Therefore, it’s no surprise that coaches wield significant power and lofty salaries.&lt;/p&gt;
 &lt;p&gt;Coaches also carry the burden of high expectations, poor job security, and an average tenure of only 3.8 years. While the decision to hire or fire a coach is a multi-factorial process, it is primarily driven by their record. Consequently, a coach’s value, particularly with donors and fans, is inextricably tied to their performance on the field.&lt;/p&gt;
 &lt;p&gt;However, wins and losses are driven by several factors, many of which are outside a coach’s control, including conference affiliation, prestige, location, historical success, and financial investment from the university. As such, a coach’s record is not the most objective way to assess their value. In this project we will set out to define an approach for evaluating coaches while minimizing the impact of these confounding factors. Let&amp;rsquo;s get started!&lt;/p&gt;
 &lt;p&gt;Continue reading on Medium: &lt;a href=&#34;https://medium.com/@arsakhare87/using-data-science-to-evaluate-recruiting-and-player-development-in-college-football-a8c5c5cd447d&#34;&gt; Using Data Science to Evaluate Recruiting and Player Development in College Football &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34;&gt;&lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34;&gt;https://github.com/arsakhar/NCAAF&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34;&gt;
+&lt;a href=&#34;https://github.com/arsakhar/NCAAF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/arsakhar/NCAAF&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;/div&gt;
@@ -132,6 +133,7 @@
 
 
 &lt;/div&gt;
+
 
 
 
@@ -271,7 +273,8 @@
 &lt;p&gt;One key characteristic that dictates ease of operation is tumor consistency, defined as texture or firmness.&lt;sup&gt;1&lt;/sup&gt; Tumor consistency, which can only be measured after surgical resection, is graded on a 5-point hardness scale (1-softest, 5-hardest).&lt;sup&gt;1,2&lt;/sup&gt; Training a machine learning model to classify a tumor according to its hardness using neuroimaging data could help physicians determine if a patient is a candidate for minimally invasive surgery.&lt;/p&gt;
 &lt;h4 id=&#34;objective&#34;&gt;Objective&lt;/h4&gt;
 &lt;p&gt;To train a convolutional neural network to classify meningioma tumors based on hardness ratings.&lt;/p&gt;
-&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34;&gt;&lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34;&gt;https://github.com/arsakhar/ML-Meningioma-Classification&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code can be downloaded at: &lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34;&gt;
+&lt;a href=&#34;https://github.com/arsakhar/ML-Meningioma-Classification&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/arsakhar/ML-Meningioma-Classification&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;/div&gt;

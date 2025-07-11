@@ -5,12 +5,64 @@
     <link>https://arsakhar.github.io/author/ashwin-sakhare/</link>
       <atom:link href="https://arsakhar.github.io/author/ashwin-sakhare/index.xml" rel="self" type="application/rss+xml" />
     <description>Ashwin Sakhare</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 May 2021 22:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://arsakhar.github.io/author/ashwin-sakhare/avatar_hu288602b02f03169e65d8e2dbb5b1f98c_191181_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png</url>
       <title>Ashwin Sakhare</title>
       <link>https://arsakhar.github.io/author/ashwin-sakhare/</link>
     </image>
+    
+    <item>
+      <title>Ashwin Sakhare</title>
+      <link>https://arsakhar.github.io/author/ashwin-sakhare/</link>
+      <pubDate>Mon, 24 May 2021 22:00:00 -0700</pubDate>
+      <guid>https://arsakhar.github.io/author/ashwin-sakhare/</guid>
+      <description>&lt;p&gt;Machine Learning engineer and consultant with 5+ years of experience bridging applied research and product deployment. Skilled in training, fine-tuning, and applying deep learning and foundation models.&lt;/p&gt;
+&lt;p&gt;Proven ability to translate ambiguous problem statements into clear technical roadmaps, leading small teams and communicating complex results to diverse technical and non-technical audiences.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conducting a VR Clinical Trial in the Era of COVID-19</title>
+      <link>https://arsakhar.github.io/publication/frontiers-virtual-reality-medicine/</link>
+      <pubDate>Mon, 24 May 2021 22:00:00 -0700</pubDate>
+      <guid>https://arsakhar.github.io/publication/frontiers-virtual-reality-medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cycling and Spatial Navigation in an Enriched, Immersive 3D Virtual Park Environment: A Feasibility Study in Younger and Older Adults</title>
+      <link>https://arsakhar.github.io/publication/frontiers-aging-neuroscience/</link>
+      <pubDate>Sat, 23 May 2020 23:20:29 -0700</pubDate>
+      <guid>https://arsakhar.github.io/publication/frontiers-aging-neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing test–retest reliability of phase contrast MRI for measuring cerebrospinal fluid and cerebral blood flow dynamics</title>
+      <link>https://arsakhar.github.io/publication/magnetic-resonance-medicine/</link>
+      <pubDate>Sat, 23 May 2020 23:13:19 -0700</pubDate>
+      <guid>https://arsakhar.github.io/publication/magnetic-resonance-medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stylet locking mechanism for medical delivery devices</title>
+      <link>https://arsakhar.github.io/publication/us-patent/</link>
+      <pubDate>Tue, 14 Feb 2012 23:33:39 -0700</pubDate>
+      <guid>https://arsakhar.github.io/publication/us-patent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ashwin Sakhare</title>
+      <link>https://arsakhar.github.io/author/ashwin-sakhare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arsakhar.github.io/author/ashwin-sakhare/</guid>
+      <description>&lt;p&gt;Machine Learning engineer and consultant with 5+ years of experience bridging applied research and product deployment. Skilled in training, fine-tuning, and applying deep learning and foundation models.&lt;/p&gt;
+&lt;p&gt;Proven ability to translate ambiguous problem statements into clear technical roadmaps, leading small teams and communicating complex results to diverse technical and non-technical audiences.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -201,12 +201,7 @@
   <link rel="stylesheet" href="/css/academic.css">
 
   
-
-
-
-
   
-
 
   
   
@@ -214,8 +209,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu_81da6d2fe21aaed6.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_63ab195cd442ee53.png">
 
   <link rel="canonical" href="https://arsakhar.github.io/blog/game-optimization/">
 
@@ -235,8 +230,8 @@
   <meta property="og:site_name" content="">
   <meta property="og:url" content="https://arsakhar.github.io/blog/game-optimization/">
   <meta property="og:title" content="Unity3D - Performance Optimization | ">
-  <meta property="og:description" content="Tips for optimizing performance on virtual reality games built with Unity3D"><meta property="og:image" content="https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://arsakhar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Tips for optimizing performance on virtual reality games built with Unity3D"><meta property="og:image" content="https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png">
+  <meta property="twitter:image" content="https://arsakhar.github.io/images/icon_hu_e747e089a9e68c83.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-08-08T22:42:40-07:00">
@@ -614,7 +609,7 @@
 <div class="tab-pane fade show active" id="tab11" role="tabpanel" aria-labelledby="nav-tabName1">
 
 	<h3 id="background">Background</h3>
-<p>The majority of VR headsets on the market use a 90 Hz refresh rate, such that the display on the headset is refreshed every 11 ms. Dropped frames will occur if the computer is unable to render an image within that time frame. API’s employ several techniques to account for dropped frames. These include timewarp, asynchronous timewarp, interleaved reprojection, motion smoothing, and positional timewarp.<sup>4</sup> While these techniques account for dropped frames to a certain extent, a poorly optimized game will still result in jittery views which can be quite nauseogenic. Therefore, performance optimization is a key component of VR game development. In this article, I will provide a brief overview of the most common techniques used to optimize performance. I will also provide links that provide a more in-depth discussion of each technique. Please note that this is not an exhaustive list of performance tips, rather a list of low hanging fruit that can lead to substantial improvements in performance.
+<p>The majority of VR headsets on the market use a 90 Hz refresh rate, such that the display on the headset is refreshed every 11 ms. Dropped frames will occur if the computer is unable to render an image within that time frame. API’s employ several techniques to account for dropped frames. These include timewarp, asynchronous timewarp, interleaved reprojection, motion smoothing, and positional timewarp.<sup>4</sup> While these techniques account for dropped frames to a certain extent, a poorly optimized game will still result in jittery views which can be quite nauseogenic. Therefore, performance optimization is a key component of VR game development. In this article, I will provide a brief overview of the most common techniques used to optimize performance. I will also provide links that provide a more in-depth discussion of each technique. Please note that this is not an exhaustive list of performance tips, rather a list of low hanging fruit that can lead to substantial improvements in performance.</p>
 
 </div>
 
@@ -636,9 +631,12 @@
 <p><img src="/img/game-optimization/garbage-collect.png" alt="Example image"></p>
 <p>In the bad example, we are instantiating a new WaitForSeconds routine every second. This results in a heap memory allocation every time an instance of WaitForSeconds is created. Each heap memory allocation is going to trigger a garbage collection. To minimize garbage collection, a single instance of WaitForSeconds can be used used if the wait period is the same each time.</p>
 <p>Further Reading:<br>
-<a href="https://jacksondunstan.com/articles/2981">https://jacksondunstan.com/articles/2981</a>
-<a href="http://blog.tochasstudios.com/2015/11/cache-coroutines.html">http://blog.tochasstudios.com/2015/11/cache-coroutines.html</a>
-<a href="https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/">https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/</a></p>
+
+<a href="https://jacksondunstan.com/articles/2981" target="_blank" rel="noopener">https://jacksondunstan.com/articles/2981</a>
+
+<a href="http://blog.tochasstudios.com/2015/11/cache-coroutines.html" target="_blank" rel="noopener">http://blog.tochasstudios.com/2015/11/cache-coroutines.html</a>
+
+<a href="https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/" target="_blank" rel="noopener">https://forum.unity.com/threads/c-coroutine-waitforseconds-garbage-collection-tip.224878/</a></p>
 
 
 </div>
@@ -658,7 +656,8 @@
 	<h3 id="polygon-count">Polygon Count</h3>
 <p>The primary responsibility of the GPU is to render an image to the screen. The complexity of an image can significantly impact rendering performance. In VR, the images that are rendered are 3D meshes. Briefly, all meshes are composed of smaller units known as polygons, which can be further decomposed into triangles. Triangles consist of vertices whose positions can be stored as an array of values (x,y,z). During rendering, the GPU first uses a vertex shader to compute where the triangle should be placed on the screen and then uses a fragment shader to fill in the pixels (rasterize) within the vertices of the triangle.<sup>6</sup> With modern GPU’s, polygon counts aren’t typically a bottleneck for performance. However, it’s still good practice for developers to simplify meshes in situations where detailed renderings aren’t needed. Blender is a free 3D modeling program that has the ability to simplify a mesh using the decimate function.</p>
 <p>Further Reading:<br>
-<a href="http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/">http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/</a></p>
+
+<a href="http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/" target="_blank" rel="noopener">http://software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons/</a></p>
 
 
 </div>
@@ -678,7 +677,8 @@
 	<h3 id="draw-calls">Draw Calls</h3>
 <p>A draw call is an instruction sent from the CPU to the GPU to render an image to the screen. An excessive number of draw calls can bottleneck the CPU if it is unable to push all draw call instructions to the GPU within that frame. In Unity, a draw call is required any time the GPU has to render a material. Multiple materials can be assigned to a single mesh, while a single diffuse texture is typically assigned to each material. A mesh consisting of 4 materials would require 4 separate draw calls from the CPU. The number of draw calls can be minimized by combining multiple meshes into a single mesh and applying a single material to that mesh. The use of a single material is possible through texture atlases, which map out how a texture is laid onto a material. MeshBaker on the Unity Asset Store is a popular asset that allows user’s to combine meshes and create texture atlases.<sup>7</sup></p>
 <p>Further Reading:<br>
-<a href="https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381">https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381</a></p>
+
+<a href="https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381" target="_blank" rel="noopener">https://medium.com/@toncijukic/draw-calls-in-a-nutshell-597330a85381</a></p>
 
 
 </div>
@@ -698,7 +698,8 @@
 	<h3 id="camera-culling">Camera Culling</h3>
 <p>By default, the camera in the game will render everything within its FOV. However, this is not always necessary as the user’s viewing depth is typically limited by vegetation, buildings, and other objects within the scene. Consider setting a culling distance such that any objects past that distance are not rendered. Game objects can even be assigned to different layers and a separate culling distance can be used for each layer. For example, flowers may require a shorter culling distance while larger landmarks may require a larger culling distance.</p>
 <p>Further Reading:<br>
-<a href="https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html">https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html</a></p>
+
+<a href="https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html" target="_blank" rel="noopener">https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html</a></p>
 
 
 </div>
@@ -716,7 +717,7 @@
 <div class="tab-pane fade" id="tab16" role="tabpanel" aria-labelledby="nav-tabName6">
 
 	<h3 id="static-batching">Static Batching</h3>
-<p>For any object that isn’t moving in the environment, enable static batching. This combines all meshes that have the same material into 1 and renders it in 1 draw call. The negative is increased memory overhead. However, the advantage of this over consolidating into 1 mesh is that you can still cull each object individually.
+<p>For any object that isn’t moving in the environment, enable static batching. This combines all meshes that have the same material into 1 and renders it in 1 draw call. The negative is increased memory overhead. However, the advantage of this over consolidating into 1 mesh is that you can still cull each object individually.</p>
 
 </div>
 
@@ -734,11 +735,16 @@
 
 	<h3 id="references">References</h3>
 <ol>
-<li>“Garbage collection (computer science) – Wikipedia.” [Online]. Available: <a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)</a>. [Accessed: 19-Jun-2019].</li>
-<li>“Feature Preview: Incremental Garbage Collection – Unity Blog.” [Online]. Available: <a href="https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/">https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/</a>. [Accessed: 19-Jun-2019].</li>
-<li>“C# Variables: Primitive and Non-primitive Types.” [Online]. Available: <a href="http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/">http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/</a>. [Accessed: 19-Jun-2019].</li>
-<li>D. Heaney, D. Jagneaux, J. Feltham, and J. Feltham, “VR Timewarp, Spacewarp, Reprojection, And Motion Smoothing Explained,” UploadVR, 18-Jan-2019. [Online]. Available: <a href="https://uploadvr.com/reprojection-explained/">https://uploadvr.com/reprojection-explained/</a>. [Accessed: 15-Jul-2019]</li>
-<li>A garbage collector for C and C++. (2019). Retrieved from <a href="https://www.hboehm.info/gc/">https://www.hboehm.info/gc/</a></li>
+<li>“Garbage collection (computer science) – Wikipedia.” [Online]. Available: 
+<a href="https://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)</a>. [Accessed: 19-Jun-2019].</li>
+<li>“Feature Preview: Incremental Garbage Collection – Unity Blog.” [Online]. Available: 
+<a href="https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/" target="_blank" rel="noopener">https://blogs.unity3d.com/2018/11/26/feature-preview-incremental-garbage-collection/</a>. [Accessed: 19-Jun-2019].</li>
+<li>“C# Variables: Primitive and Non-primitive Types.” [Online]. Available: 
+<a href="http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/" target="_blank" rel="noopener">http://www.jeremyshanks.com/c-variables-primitive-nonprimitive-types/</a>. [Accessed: 19-Jun-2019].</li>
+<li>D. Heaney, D. Jagneaux, J. Feltham, and J. Feltham, “VR Timewarp, Spacewarp, Reprojection, And Motion Smoothing Explained,” UploadVR, 18-Jan-2019. [Online]. Available: 
+<a href="https://uploadvr.com/reprojection-explained/" target="_blank" rel="noopener">https://uploadvr.com/reprojection-explained/</a>. [Accessed: 15-Jul-2019]</li>
+<li>A garbage collector for C and C++. (2019). Retrieved from 
+<a href="https://www.hboehm.info/gc/" target="_blank" rel="noopener">https://www.hboehm.info/gc/</a></li>
 <li>Eskil_steenberg. “Model for Real Time-Beyond Counting Polygons.” Intel® Software, Intel, 15 Dec. 2018, software.intel.com/en-us/articles/model-for-real-time-beyond-counting-polygons.</li>
 <li>Digital Opus, digitalopus.ca/site/mesh-baker/.</li>
 </ol>
@@ -858,7 +864,7 @@
     
     
     
-    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+    <script src="/js/academic.min.d814654a57ebd81365fa2df16524f4cb.js"></script>
 
     
 
